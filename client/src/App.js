@@ -7,6 +7,7 @@ function App() {
             className="container-fluid p-0 position-relative vh-100"
             id="app-container"
         >
+            <div className="background-image"></div>
             <Navbar />
         </div>
     );
