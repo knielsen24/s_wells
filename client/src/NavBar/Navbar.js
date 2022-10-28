@@ -3,7 +3,7 @@ import React from "react";
 function Navbar() {
     return (
         <div className="container">
-            <nav className="navbar navbar-expand-lg bg-transparent sticky">
+            <nav className="nav navbar navbar-expand-lg bg-transparent sticky">
                 <div className="container-fluid">
                     <a className="navbar-brand" href="#">
                         300 South Wells
@@ -23,7 +23,7 @@ function Navbar() {
                         className="collapse navbar-collapse"
                         id="navbarNavDropdown"
                     >
-                        <ul className="navbar-nav">
+                        <ul className="navbar-nav ms-auto">
                             <li className="nav-item">
                                 <a
                                     className="nav-link active"
@@ -35,7 +35,7 @@ function Navbar() {
                             </li>
                             <li className="nav-item">
                                 <a className="nav-link" href="#">
-                                    Location
+                                    The Courtyard
                                 </a>
                             </li>
                             <li className="nav-item">
