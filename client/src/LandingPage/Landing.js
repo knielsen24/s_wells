@@ -2,7 +2,8 @@ import handCraftCoffee from "../assets/handcraft-logo.jpg";
 import dorindasLogo from "../assets/dorindas-logo.avif";
 import theMillLogo from "../assets/the-mill-barre.png";
 import atelierLogo from "../assets/atelier-logo.webp";
-import terraphaseLogo from "../assets/terraphase_logo.svg"
+import terraphaseLogo from "../assets/terraphase_logo.svg";
+import entravisionLogo from "../assets/entravision-logo.webp";
 
 function Landing() {
     return (
@@ -19,29 +20,16 @@ function Landing() {
                                 className="rounded-circle"
                                 src={handCraftCoffee}
                                 alt="hand craft coffee logo"
-                                height="100px"
+                                width="125px"
                             />
-                            {/* <div>Hand Craft Coffee</div> */}
                         </div>
                         <div className="col">
                             <img
                                 className=""
                                 src={dorindasLogo}
                                 alt="dorinda's chocolates logo"
-                                height="100px"
-                            />
-                            {/* <div>Dorinda's Chocolates</div> */}
-                        </div>
-                    </div>
-                    <div className="row my-2 align-items-center">
-                        <div className="col ">
-                            <img
-                                className=""
-                                src={theMillLogo}
-                                alt="the mill barre logo"
                                 width="200px"
                             />
-                            {/* <div>The Mill Barre + Pilates</div> */}
                         </div>
                         <div className="col ">
                             <img
@@ -50,7 +38,17 @@ function Landing() {
                                 alt="atelier logo"
                                 width="200px"
                             />
-                            {/* <div>The Mill Barre + Pilates</div> */}
+                        </div>
+
+                    </div>
+                    <div className="row my-2 align-items-center">
+                        <div className="col h-100">
+                            <img
+                                className=""
+                                src={theMillLogo}
+                                alt="the mill barre logo"
+                                width="200px"
+                            />
                         </div>
                         <div className="col ">
                             <img
@@ -59,7 +57,15 @@ function Landing() {
                                 alt="atelier logo"
                                 width="200px"
                             />
-                            {/* <div>The Mill Barre + Pilates</div> */}
+                        </div>
+
+                        <div className="col ">
+                            <img
+                                className=""
+                                src={entravisionLogo}
+                                alt="entravision tv"
+                                width="200px"
+                            />
                         </div>
                     </div>
                 </div>
