@@ -8,7 +8,7 @@ import entravisionLogo from "../assets/entravision-logo.webp";
 function Landing() {
     return (
         <div className="text-center">
-            <div className="row mt-2 justify-content-center">
+            <div className="row mt-4 justify-content-center">
                 <div className="col-3"></div>
                 <div className="col-7 bg-white bg-opacity-50 rounded">
                     {/* <h5 className="my-2">

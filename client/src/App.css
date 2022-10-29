@@ -21,3 +21,7 @@
     height: 100vh;
     z-index: 100;
 }
+
+.bg-nav {
+    background-color:  #72747A;
+}

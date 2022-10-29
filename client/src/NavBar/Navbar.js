@@ -2,8 +2,8 @@ import React from "react";
 
 function Navbar() {
     return (
-        <div className="container">
-            <nav className="nav navbar navbar-expand-lg bg-transparent sticky-top">
+        <div className="sticky-top bg-white">
+            <nav className="container nav navbar navbar-expand-lg sticky-top">
                 <div className="container-fluid">
                     <a className="navbar-brand" href="#">
                         300 South Wells
@@ -23,7 +23,7 @@ function Navbar() {
                         className="collapse navbar-collapse"
                         id="navbarNavDropdown"
                     >
-                        <ul className="navbar-nav ms-auto align-items-center">
+                        <ul className="navbar-nav ms-auto align-items-center ">
                             <li className="nav-item">
                                 <a
                                     className="nav-link active"
