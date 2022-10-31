@@ -11,7 +11,7 @@
 }
 
 .background-image {
-    /* background-image: url("./assets/1C-website-cover-v2.jpg"); */
+    background-image: url("./assets/1C-website-cover-v2.jpg");
     background-repeat: no-repeat;
     position: relative;
     /* height: 100vh; */
