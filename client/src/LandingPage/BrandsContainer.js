@@ -7,13 +7,10 @@ import dorindasLogo from "../assets/dorindas-logo.avif";
 
 function BrandsContainer() {
     return (
-        <div >
+        <div>
             <div className="row mt-4 justify-content-center">
-                <div className="col-3"></div>
-                <div className="col-7 bg-white bg-opacity-50 rounded">
-                    {/* <h5 className="my-2">
-            Some of the finest businesses in Reno.
-        </h5> */}
+                {/* <div className="col-3"></div> */}
+                <div className="col-10 bg-white bg-opacity-50 rounded">
                     <div className="row mt-2 align-items-center">
                         <div className="col">
                             <img
