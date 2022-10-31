@@ -1,11 +1,39 @@
 import React from "react";
+import { useState } from "react";
 
 function Navbar() {
+    const [changeBackground, setChangeBackground] = useState(false);
+
+    const changeColor = () => {
+        if (window.scrollY >= 10) {
+            setChangeBackground(true);
+        } else {
+            setChangeBackground(false);
+        }
+    };
+
+    window.addEventListener("scroll", changeColor);
+
+    const navMenuLinks = changeBackground
+        ? "nav-link text-white"
+        : "nav-link text-dark";
+
     return (
-        <div className="sticky-top bg-white">
+        <div
+            className={changeBackground ? "navbar navbar-bg" : "navbar"}
+            // onMouseEnter={() => setChangeBackground(false)}
+            // onMouseLeave={() => setChangeBackground(true)}
+        >
             <nav className="container nav navbar navbar-expand-lg sticky-top">
                 <div className="container-fluid">
-                    <a className="navbar-brand" href="#">
+                    <a
+                        className={
+                            changeBackground
+                                ? "navbar-brand text-white"
+                                : "navbar-brand text-dark"
+                        }
+                        href="#"
+                    >
                         300 South Wells
                     </a>
                     <button
@@ -26,7 +54,7 @@ function Navbar() {
                         <ul className="navbar-nav ms-auto align-items-center ">
                             <li className="nav-item">
                                 <a
-                                    className="nav-link active"
+                                    className={navMenuLinks}
                                     aria-current="page"
                                     href="#"
                                 >
@@ -34,17 +62,17 @@ function Navbar() {
                                 </a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#">
+                                <a className={navMenuLinks} href="#">
                                     The Courtyard
                                 </a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#">
+                                <a className={navMenuLinks} href="#">
                                     Lease a space
                                 </a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#">
+                                <a className={navMenuLinks} href="#">
                                     Contact
                                 </a>
                             </li>

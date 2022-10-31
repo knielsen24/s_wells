@@ -12,9 +12,8 @@
 
 
 
-
 .background-image {
-    background-image: url("./assets/1C-website-cover-v2.jpg");
+    /* background-image: url("./assets/1C-website-cover-v2.jpg"); */
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
@@ -22,6 +21,20 @@
     z-index: 100;
 }
 
-.bg-nav {
-    background-color:  #72747A;
+/* .bg-nav {
+    background-color:  #595C61;
+} */
+
+
+.navbar{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    position: sticky;
+    transition: .25s ease-in;
+}
+
+.navbar-bg{
+    background-color: #595C61;
+
 }
