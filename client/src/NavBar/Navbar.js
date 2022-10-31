@@ -1,5 +1,5 @@
-import React from "react";
 import { useState } from "react";
+import listIcon from "../assets/list-icon.svg"
 
 function Navbar() {
     const [changeBackground, setChangeBackground] = useState(false);
@@ -24,20 +24,20 @@ function Navbar() {
             onMouseEnter={() => setChangeBackground(true)}
             onMouseLeave={() => setChangeBackground(false)}
         >
-            <nav className="container nav navbar navbar-expand-lg sticky-top">
+            <nav className=" container navbar navbar-expand-lg sticky-top">
                 <div className="container-fluid">
                     <a
                         className={
                             changeBackground
-                                ? "navbar-brand text-white"
-                                : "navbar-brand text-dark"
+                                ? "navbar-brand float-lg-start text-white"
+                                : "navbar-brand float-sm-center text-dark"
                         }
                         href="#"
                     >
                         300 South Wells
                     </a>
                     <button
-                        className="navbar-toggler"
+                        className="navbar-toggler border-0 "
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#navbarNavDropdown"
@@ -45,7 +45,8 @@ function Navbar() {
                         aria-expanded="false"
                         aria-label="Toggle navigation"
                     >
-                        <span className="navbar-toggler-icon"></span>
+                        {/* <img src={listIcon} width="10px" ></img> */}
+                        <span className="navbar-toggler-icon" ></span>
                     </button>
                     <div
                         className="collapse navbar-collapse"

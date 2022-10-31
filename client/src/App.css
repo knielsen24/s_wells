@@ -24,6 +24,7 @@
     bottom: 0;
     position: sticky;
     transition: 0.2s ease-in;
+    z-index: 1000;
 }
 
 .navbar-bg {
