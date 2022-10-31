@@ -21,8 +21,8 @@ function Navbar() {
     return (
         <div
             className={changeBackground ? "navbar navbar-bg" : "navbar"}
-            // onMouseEnter={() => setChangeBackground(false)}
-            // onMouseLeave={() => setChangeBackground(true)}
+            onMouseEnter={() => setChangeBackground(true)}
+            onMouseLeave={() => setChangeBackground(false)}
         >
             <nav className="container nav navbar navbar-expand-lg sticky-top">
                 <div className="container-fluid">
