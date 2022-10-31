@@ -11,7 +11,7 @@ function BrandsContainer() {
             <div className="row mt-4 justify-content-center">
                 {/* <div className="col-3"></div> */}
                 <div className="col-10 bg-white bg-opacity-50 rounded">
-                    <div className="row mt-2 align-items-center">
+                    <div className="row my-2 align-items-center">
                         <div className="col">
                             <img
                                 className="rounded-circle"
