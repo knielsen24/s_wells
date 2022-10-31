@@ -3,9 +3,9 @@ import BrandsContainer from "./BrandsContainer";
 
 function Landing() {
     return (
-        <div className="text-center h-75">
-            <div className="">
-                <img className="rounded"
+        <div className="container text-center ">
+            <div className="w-auto">
+                <img className="img-fluid rounded"
                 src={propertyImage}></img>
             </div>
             <BrandsContainer />

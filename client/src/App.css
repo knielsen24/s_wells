@@ -23,7 +23,7 @@
     top: 0;
     bottom: 0;
     position: sticky;
-    transition: 0.3s ease-in;
+    transition: 0.2s ease-in;
 }
 
 .navbar-bg {
@@ -35,8 +35,6 @@
 }
 
 footer {
-    position: absolute;
-    bottom: 0;
     width: 100%;
     height: 50px;
 }
