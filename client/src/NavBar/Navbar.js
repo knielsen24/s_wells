@@ -29,15 +29,15 @@ function Navbar() {
                     <a
                         className={
                             changeBackground
-                                ? "navbar-brand float-lg-start text-white"
-                                : "navbar-brand float-sm-center text-dark"
+                                ? "navbar-brand float-lg-start text-white ps-1"
+                                : "navbar-brand float-sm-center text-dark ps-1"
                         }
                         href="#"
                     >
                         300 South Wells
                     </a>
                     <button
-                        className="navbar-toggler border-0 "
+                        className="navbar-toggler border-0 p-1"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#navbarNavDropdown"

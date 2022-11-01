@@ -4,8 +4,8 @@ import Carousel from "./Carousel";
 
 function Landing() {
     return (
-        <div className="container text-center mt-4">
-            <div className="row w-auto align-items-center">
+        <div className="container text-center">
+            <div className="row w-auto ">
                 <Carousel />
                 {/* <img className="img-fluid rounded"
                 src={propertyImage} /> */}
