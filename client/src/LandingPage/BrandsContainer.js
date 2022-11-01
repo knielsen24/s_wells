@@ -8,10 +8,11 @@ import dorindasLogo from "../assets/dorindas-logo.avif";
 function BrandsContainer() {
     return (
         <div>
-            <div className="row mt-4 justify-content-center">
+            <header className="mt-3 fw-bold">Partners</header>
+            <div className="row justify-content-center">
                 {/* <div className="col-3"></div> */}
                 <div className="col-10 bg-white bg-opacity-50 rounded">
-                    <div className="row my-2 align-items-center">
+                    <div className="row mb-2 align-items-center">
                         <div className="col">
                             <img
                                 className="rounded-circle"
