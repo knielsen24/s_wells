@@ -17,8 +17,15 @@ function Carousel() {
                             <img
                                 src={propertyImage}
                                 className="d-block w-100"
-                                alt="..."
+                                alt="property-front"
                             />
+                            <div className="carousel-caption p-2 d-none d-md-block bg-light bg-opacity-50 rounded text-dark">
+                                <h5>Welcome to 300 South Wells</h5>
+                                <p className="m-0">
+                                    Some representative placeholder content for
+                                    the first slide.
+                                </p>
+                            </div>
                         </div>
                         <div className="carousel-item" data-bs-interval="5000">
                             <img
@@ -26,6 +33,12 @@ function Carousel() {
                                 className="d-block w-100"
                                 alt="..."
                             />
+                            <div className="carousel-caption p-2 d-none d-md-block bg-light bg-opacity-50 rounded text-dark">
+                                <h5>Lease a space</h5>
+                                <p className="m-0">
+                                    Click here to get more information on availibility
+                                </p>
+                            </div>
                         </div>
                         <div className="carousel-item">
                             <img
