@@ -5,10 +5,13 @@ import Carousel from "./Carousel";
 function Landing() {
     return (
         <div className="container-fluid text-center">
-            <div className="row w-auto ">
+            <div className="row w-auto">
                 <Carousel />
                 {/* <img className="img-fluid rounded"
                 src={propertyImage} /> */}
+            </div>
+            <div className="row w-auto">
+                
             </div>
             <BrandsContainer />
         </div>

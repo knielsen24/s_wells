@@ -20,7 +20,7 @@ function Navbar() {
 
     return (
         <div
-            className={changeBackground ? "navbar navbar-bg" : "navbar"}
+            className={changeBackground ? "navbar navbar-bg " : "navbar "}
             // onMouseEnter={() => setChangeBackground(true)}
             // onMouseLeave={() => setChangeBackground(false)}
         >
@@ -53,19 +53,18 @@ function Navbar() {
                         id="navbarNavDropdown"
                     >
                         <ul className="navbar-nav ms-auto align-items-center ">
-                            {/* <li className="nav-item">
+                            <li className="nav-item">
                                 <a
                                     className={navMenuLinks}
                                     aria-current="page"
                                     href="#"
                                 >
-                                    Information
+                                    About
                                 </a>
-                            </li> */}
-
+                            </li>
                             <li className="nav-item">
                                 <a className={navMenuLinks} href="#">
-                                    Lease a space
+                                    Leasing
                                 </a>
                             </li>
                             <li className="nav-item">

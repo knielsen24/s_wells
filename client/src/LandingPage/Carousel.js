@@ -1,10 +1,10 @@
-import landingOne from "../assets/Building/sw-main-1-wide.png";
-import landingTwo from "../assets/Building/sw-main-2-wide.png";
-import landingThree from "../assets/Building/sw-main-3-wide.png";
+import landingOne from "../assets/Building/sw-main-1-wide.jpg";
+import landingTwo from "../assets/Building/sw-main-2-wide.jpg";
+import landingThree from "../assets/Building/sw-main-3-wide.jpg";
 
 function Carousel() {
     return (
-        <div className="row m-auto p-0 justify-content-center h-">
+        <div className="row m-auto p-0 justify-content-center ">
             <div className="col m-0 p-0 carousel-column">
                 <div
                     id="carouselExampleInterval"
@@ -51,7 +51,7 @@ function Carousel() {
                         </div>
                     </div>
                     <button
-                        className="carousel-control-prev ms-5"
+                        className="carousel-control-prev ms-3"
                         type="button"
                         data-bs-target="#carouselExampleInterval"
                         data-bs-slide="prev"
@@ -63,7 +63,7 @@ function Carousel() {
                         <span className="visually-hidden">Previous</span>
                     </button>
                     <button
-                        className="carousel-control-next me-5"
+                        className="carousel-control-next me-3"
                         type="button"
                         data-bs-target="#carouselExampleInterval"
                         data-bs-slide="next"
