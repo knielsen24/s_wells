@@ -4,7 +4,7 @@ import Carousel from "./Carousel";
 
 function Landing() {
     return (
-        <div className="container text-center">
+        <div className="container-fluid text-center">
             <div className="row w-auto ">
                 <Carousel />
                 {/* <img className="img-fluid rounded"

@@ -1,8 +1,10 @@
-import propertyImage from "../assets/1C-website-cover-v2.jpg";
+import landingOne from "../assets/Building/sw-main-1-wide.png";
+import landingTwo from "../assets/Building/sw-main-2-wide.png";
+import landingThree from "../assets/Building/sw-main-3-wide.png";
 
 function Carousel() {
     return (
-        <div className="row m-auto p-0 justify-content-center">
+        <div className="row m-auto p-0 justify-content-center h-">
             <div className="col m-0 p-0 carousel-column">
                 <div
                     id="carouselExampleInterval"
@@ -15,8 +17,8 @@ function Carousel() {
                             data-bs-interval="10000"
                         >
                             <img
-                                src={propertyImage}
-                                className="d-block w-100"
+                                src={landingOne}
+                                className="d-block w-100 carousel-cover"
                                 alt="property-front"
                             />
                             <div className="carousel-caption p-2 d-none d-md-block bg-light bg-opacity-50 rounded text-dark">
@@ -29,9 +31,9 @@ function Carousel() {
                         </div>
                         <div className="carousel-item" data-bs-interval="5000">
                             <img
-                                src={propertyImage}
-                                className="d-block w-100"
-                                alt="..."
+                                src={landingTwo}
+                                className="d-block w-100 carousel-cover"
+                                alt="property-street"
                             />
                             <div className="carousel-caption p-2 d-none d-md-block bg-light bg-opacity-50 rounded text-dark">
                                 <h5>Lease a space</h5>
@@ -42,14 +44,14 @@ function Carousel() {
                         </div>
                         <div className="carousel-item">
                             <img
-                                src={propertyImage}
-                                className="d-block w-100"
-                                alt="..."
+                                src={landingThree}
+                                className="d-block w-100 "
+                                alt="property-courtyard"
                             />
                         </div>
                     </div>
                     <button
-                        className="carousel-control-prev"
+                        className="carousel-control-prev ms-5"
                         type="button"
                         data-bs-target="#carouselExampleInterval"
                         data-bs-slide="prev"
@@ -61,7 +63,7 @@ function Carousel() {
                         <span className="visually-hidden">Previous</span>
                     </button>
                     <button
-                        className="carousel-control-next"
+                        className="carousel-control-next me-5"
                         type="button"
                         data-bs-target="#carouselExampleInterval"
                         data-bs-slide="next"

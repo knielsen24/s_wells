@@ -21,16 +21,16 @@ function Navbar() {
     return (
         <div
             className={changeBackground ? "navbar navbar-bg" : "navbar"}
-            onMouseEnter={() => setChangeBackground(true)}
-            onMouseLeave={() => setChangeBackground(false)}
+            // onMouseEnter={() => setChangeBackground(true)}
+            // onMouseLeave={() => setChangeBackground(false)}
         >
-            <nav className=" container navbar navbar-expand-lg sticky-top">
+            <nav className="container navbar navbar-expand-md sticky-top">
                 <div className="container-fluid">
                     <a
                         className={
                             changeBackground
-                                ? "navbar-brand float-lg-start text-white ps-1"
-                                : "navbar-brand float-sm-center text-dark ps-1"
+                                ? "navbar-brand text-white ps-1"
+                                : "navbar-brand text-dark ps-1"
                         }
                         href="#"
                     >
@@ -46,14 +46,14 @@ function Navbar() {
                         aria-label="Toggle navigation"
                     >
                         {/* <img src={listIcon} width="10px" ></img> */}
-                        <span className="navbar-toggler-icon" ></span>
+                        <span className="navbar-toggler-icon " ></span>
                     </button>
                     <div
                         className="collapse navbar-collapse"
                         id="navbarNavDropdown"
                     >
                         <ul className="navbar-nav ms-auto align-items-center ">
-                            <li className="nav-item">
+                            {/* <li className="nav-item">
                                 <a
                                     className={navMenuLinks}
                                     aria-current="page"
@@ -61,12 +61,8 @@ function Navbar() {
                                 >
                                     Information
                                 </a>
-                            </li>
-                            <li className="nav-item">
-                                <a className={navMenuLinks} href="#">
-                                    The Courtyard
-                                </a>
-                            </li>
+                            </li> */}
+
                             <li className="nav-item">
                                 <a className={navMenuLinks} href="#">
                                     Lease a space
@@ -74,7 +70,17 @@ function Navbar() {
                             </li>
                             <li className="nav-item">
                                 <a className={navMenuLinks} href="#">
+                                    Partners
+                                </a>
+                            </li>
+                            <li className="nav-item">
+                                <a className={navMenuLinks} href="#">
                                     Contact
+                                </a>
+                            </li>
+                            <li className="nav-item">
+                                <a className={navMenuLinks} href="#">
+                                    The Courtyard
                                 </a>
                             </li>
                             {/* <li className="nav-item dropdown">

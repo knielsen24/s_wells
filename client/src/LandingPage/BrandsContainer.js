@@ -1,9 +1,9 @@
-import theMillLogo from "../assets/the-mill-barre.png";
-import atelierLogo from "../assets/atelier-logo.webp";
-import terraphaseLogo from "../assets/terraphase_logo.svg";
-import entravisionLogo from "../assets/entravision-logo.webp";
-import handCraftCoffee from "../assets/handcraft-logo.jpg";
-import dorindasLogo from "../assets/dorindas-logo.avif";
+import theMillLogo from "../assets/Logos/the-mill-barre.png";
+import atelierLogo from "../assets/Logos/atelier-logo.webp";
+import terraphaseLogo from "../assets/Logos/terraphase_logo.svg";
+import entravisionLogo from "../assets/Logos/entravision-logo.webp";
+import handCraftCoffee from "../assets/Logos/handcraft-logo.jpg";
+import dorindasLogo from "../assets/Logos/dorindas-logo.avif";
 
 function BrandsContainer() {
     return (
