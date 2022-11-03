@@ -1,5 +1,5 @@
 import { useState } from "react";
-import listIcon from "../assets/list-icon.svg"
+import listIcon from "../assets/list-icon.svg";
 
 function Navbar() {
     const [changeBackground, setChangeBackground] = useState(false);
@@ -24,7 +24,10 @@ function Navbar() {
             // onMouseEnter={() => setChangeBackground(true)}
             // onMouseLeave={() => setChangeBackground(false)}
         >
-            <nav className="container navbar navbar-expand-md sticky-top">
+            <nav
+                className="container navbar navbar-expand-md sticky-top"
+                id="navID"
+            >
                 <div className="container-fluid">
                     <a
                         className={
@@ -46,7 +49,7 @@ function Navbar() {
                         aria-label="Toggle navigation"
                     >
                         {/* <img src={listIcon} width="10px" ></img> */}
-                        <span className="navbar-toggler-icon " ></span>
+                        <span className="navbar-toggler-icon "></span>
                     </button>
                     <div
                         className="collapse navbar-collapse"
@@ -57,28 +60,28 @@ function Navbar() {
                                 <a
                                     className={navMenuLinks}
                                     aria-current="page"
-                                    href="#"
+                                    href="#about"
                                 >
                                     About
                                 </a>
                             </li>
                             <li className="nav-item">
-                                <a className={navMenuLinks} href="#">
+                                <a className={navMenuLinks} href="#leasing">
                                     Leasing
                                 </a>
                             </li>
                             <li className="nav-item">
-                                <a className={navMenuLinks} href="#">
+                                <a className={navMenuLinks} href="#partners">
                                     Partners
                                 </a>
                             </li>
                             <li className="nav-item">
-                                <a className={navMenuLinks} href="#">
+                                <a className={navMenuLinks} href="#contact">
                                     Contact
                                 </a>
                             </li>
                             <li className="nav-item">
-                                <a className={navMenuLinks} href="#">
+                                <a className={navMenuLinks} href="#theCourtyard">
                                     The Courtyard
                                 </a>
                             </li>

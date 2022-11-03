@@ -6,19 +6,19 @@ import Contact from "./Contact";
 
 function Landing() {
     return (
-        <div className="container-fluid text-center">
-            <div className="row w-auto justify-content-center">
+        <div className="container-fluid text-center" >
+            <div className="row w-auto justify-content-center" >
                 <Carousel />
                 {/* <img className="img-fluid rounded"
                 src={propertyImage} /> */}
             </div>
-            <div className="row w-auto justify-content-center">
+            <div className="row w-auto justify-content-center" id="about">
                 <About />
             </div>
-            <div className="row w-auto justify-content-center">
+            <div className="row w-auto justify-content-center" id="partners">
                 <BrandsContainer />
             </div>
-            <div className="row w-auto justify-content-center">
+            <div className="row w-auto justify-content-center" id="contact">
                 <Contact />
             </div>
         </div>

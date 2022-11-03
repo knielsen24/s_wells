@@ -10,9 +10,11 @@ function App() {
             id="app-container"
         >
             <Navbar />
-            <Landing />
+            <div data-bs-spy="scroll" data-bs-target="#navID">
+                <Landing />
 
-            <Footer />
+                <Footer />
+            </div>
         </body>
     );
 }
