@@ -39,7 +39,7 @@ function BrandsContainer() {
                         </div>
                     </div>
                     <div className="row my-2 align-items-center">
-                        <div className="col h-100">
+                        <div className="col ">
                             <img
                                 className=""
                                 src={theMillLogo}

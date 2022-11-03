@@ -6,7 +6,7 @@ import Contact from "./Contact";
 
 function Landing() {
     return (
-        <div className="container-fluid text-center" >
+        <div className="container-fluid text-center " >
             <div className="row w-auto justify-content-center" >
                 <Carousel />
                 {/* <img className="img-fluid rounded"

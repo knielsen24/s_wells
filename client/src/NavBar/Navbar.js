@@ -20,7 +20,7 @@ function Navbar() {
 
     return (
         <div
-            className={changeBackground ? "navbar navbar-bg " : "navbar "}
+            className={changeBackground ? "navbar navbar-bg sticky-top" : "navbar sticky-top"}
             // onMouseEnter={() => setChangeBackground(true)}
             // onMouseLeave={() => setChangeBackground(false)}
         >
