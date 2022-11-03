@@ -8,7 +8,7 @@ import dorindasLogo from "../assets/Logos/dorindas-logo.avif";
 function BrandsContainer() {
     return (
         <div className="col">
-            <h4 className="mt-3">Partners</h4>
+            <h4 className="mt-3 text-decoration-underline">Partners</h4>
             <div className="row justify-content-center">
                 {/* <div className="col-3"></div> */}
                 <div className="col-10 bg-white bg-opacity-50 rounded">

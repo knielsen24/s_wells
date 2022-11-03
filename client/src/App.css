@@ -1,5 +1,5 @@
 #app-container {
-    width:100%;
+    width: 100%;
     min-width: 280px;
     justify-content: center;
     padding: 10px;
@@ -30,8 +30,7 @@
 
 .navbar-bg {
     background-color: #595c61;
-    opacity: .97;
-    
+    opacity: 0.97;
 }
 
 .footer-bg {
@@ -45,4 +44,10 @@ footer {
 
 .cover {
     object-fit: cover;
+}
+
+.carousel-caption {
+    margin-top: 50px;
+    top: 0;
+    bottom: auto;
 }
