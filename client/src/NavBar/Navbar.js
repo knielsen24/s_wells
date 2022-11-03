@@ -20,12 +20,12 @@ function Navbar() {
 
     return (
         <div
-            className={changeBackground ? "navbar navbar-bg sticky-top" : "navbar sticky-top"}
+            className={changeBackground ? "navbar navbar-bg m-0 overflow-hidden" : "navbar m-0 overflow-hidden"}
             // onMouseEnter={() => setChangeBackground(true)}
             // onMouseLeave={() => setChangeBackground(false)}
         >
             <nav
-                className="container navbar navbar-expand-md sticky-top"
+                className="container navbar navbar-expand-md "
                 id="navID"
             >
                 <div className="container-fluid">
@@ -56,7 +56,7 @@ function Navbar() {
                         id="navbarNavDropdown"
                     >
                         <ul className="navbar-nav ms-auto align-items-center ">
-                            <li className="nav-item">
+                            <li className="nav-item m-0">
                                 <a
                                     className={navMenuLinks}
                                     aria-current="page"
@@ -65,22 +65,22 @@ function Navbar() {
                                     About
                                 </a>
                             </li>
-                            <li className="nav-item">
+                            <li className="nav-item m-0">
                                 <a className={navMenuLinks} href="#leasing">
                                     Leasing
                                 </a>
                             </li>
-                            <li className="nav-item">
+                            <li className="nav-item m-0 ">
                                 <a className={navMenuLinks} href="#partners">
                                     Partners
                                 </a>
                             </li>
-                            <li className="nav-item">
+                            <li className="nav-item m-0">
                                 <a className={navMenuLinks} href="#contact">
                                     Contact
                                 </a>
                             </li>
-                            <li className="nav-item">
+                            <li className="nav-item m-0">
                                 <a className={navMenuLinks} href="#theCourtyard">
                                     The Courtyard
                                 </a>

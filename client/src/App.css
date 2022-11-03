@@ -1,4 +1,5 @@
 #app-container {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     width: 100%;
     min-width: 280px;
     justify-content: center;
@@ -21,12 +22,11 @@
 
 .navbar {
     position: fixed;
-    top: -.05rem;
+    top:0;
     bottom: 0;
     position: sticky;
     transition: 0.2s ease-in;
     z-index: 100;
-
 }
 
 .navbar-bg {
@@ -54,5 +54,5 @@ footer {
 }
 
 /* .main-container {
-    top: 100px;
+    height: 100vh
 } */
