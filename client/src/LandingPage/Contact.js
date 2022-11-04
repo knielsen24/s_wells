@@ -9,7 +9,7 @@ function Contact() {
         <div className="col flex-lg-column">
             <h4 className="my-3 text-decoration-underline ">Contact</h4>
 
-            <img className="py-2" src={logicLogo} alt="logic-logo" width="150px" />
+            <img className="py-2" src={logicLogo} alt="logic-logo" width="125px" />
             <p className="py-1 m-1">For more information please contact a Logic Commerial Real Estate representative</p>
             {/* <div className="row justify-content-center">
                 <div className="col"> </div>
