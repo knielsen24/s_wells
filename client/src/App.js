@@ -12,8 +12,8 @@ function App() {
             id="app-container"
         >
             <Navbar />
-            <div className="ms-auto main-container h-100">
-                <div className="overflow-hidden">
+            <div className="ms-auto main-container">
+                <div className="overflow-auto">
                     <Landing />
 
                     <Footer />

@@ -11,6 +11,7 @@ function Landing() {
                 <Carousel />
                 {/* <img className="img-fluid rounded"
                 src={propertyImage} /> */}
+                <div className="container bg-secondary"></div>
             </div>
             <div className="row w-auto justify-content-center" id="about">
                 <About />

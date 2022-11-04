@@ -20,7 +20,7 @@ function Navbar() {
 
     return (
         <div
-            className={changeBackground ? "navbar navbar-bg m-0 overflow-hidden" : "navbar m-0 overflow-hidden"}
+            className={changeBackground ? "navbar navbar-bg m-0 " : "navbar m-0 "}
             // onMouseEnter={() => setChangeBackground(true)}
             // onMouseLeave={() => setChangeBackground(false)}
         >
