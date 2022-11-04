@@ -5,12 +5,13 @@ import CarouselButtons from "./CarouselButtons";
 
 function Carousel() {
 
-    const captionClass = "carousel-caption float-start p-2 bg-light bg-opacity-75 d-none d-sm-block rounded text-dark"
+    const captionClassOne = "carousel-caption p-2 mx-0 d-none d-sm-block rounded text-white"
+    const captionClassTwo = "carousel-caption p-2 mx-0 d-none d-sm-block rounded text-dark"
 
     return (
         <div className="container-fluid m-auto p-0 justify-content-center ">
             <div className="row m-auto p-0 ">
-                <div className="col m-0 p-0 carousel-column">
+                <div className="col m-0 p-0 carousel-column ">
                     <div
                         id="carouselExampleInterval"
                         className="carousel slide "
@@ -19,19 +20,18 @@ function Carousel() {
                         <div className="carousel-inner">
                             <div
                                 className="carousel-item active"
-                                data-bs-interval="8000"
+                                data-bs-interval="5000"
                             >
                                 <img
                                     src={landingOne}
                                     className="d-block w-100 carousel-cover"
                                     alt="property-front"
                                 />
-                                <div className={captionClass}>
-                                    <h5>Welcome to 300 South Wells</h5>
-                                    <p className="m-0">
-                                        Some representative placeholder content
-                                        for the first slide.
-                                    </p>
+                                <div className={captionClassOne}>
+                                    <h2>Welcome to 300 South Wells</h2>
+                                    <h5 className="m-0">
+                                        Mixed Use Retro Industrial buidling
+                                    </h5>
                                 </div>
                             </div>
                             <div
@@ -43,8 +43,8 @@ function Carousel() {
                                     className="d-block w-100 carousel-cover"
                                     alt="property-street"
                                 />
-                                <div className={captionClass}>
-                                    <h5>Lease a space</h5>
+                                <div className={captionClassOne}>
+                                    <h2>Lease a space</h2>
                                     <p className="m-0">
                                         Click here to get more information on
                                         availibility
@@ -60,8 +60,8 @@ function Carousel() {
                                     className="d-block w-100 "
                                     alt="property-courtyard"
                                 />
-                                <div className={captionClass}>
-                                    <h5>Communial Space</h5>
+                                <div className={captionClassTwo}>
+                                    <h2>Communial Space</h2>
                                     <p className="m-0">
                                         The common areas are great for customers and employees
                                     </p>

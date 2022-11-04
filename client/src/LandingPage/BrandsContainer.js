@@ -8,15 +8,15 @@ import vanmarLogo from "../assets/Logos/vanmar-logo.webp"
 
 function BrandsContainer() {
 
-    const brandsColClass = "col mx-4 my-3"
+    const brandsColClass = "col mx-5 my-3"
 
     return (
-        <div className="col">
-            <h4 className="text-decoration-underline">Partners</h4>
+        <div className="col mt-3">
+            <h4 className="my-3 p-1 bg-light rounded border ">Partners</h4>
             <div className="row justify-content-center">
                 {/* <div className="col-3"></div> */}
                 <div className="col">
-                    <div className="row my-2 align-items-center">
+                    <div className="row mb-2 align-items-center">
                         <div className={brandsColClass}>
                             <img
                                 className=""
@@ -66,7 +66,7 @@ function BrandsContainer() {
                                 width="190"
                             />
                         </div> */}
-                        <div className={brandsColClass}>
+                        <div className="col mx-4">
                             <img
                                 className="rounded-circle"
                                 src={handCraftCoffee}

@@ -1,6 +1,6 @@
 import { useState } from "react";
 import listIcon from "../assets/list-icon.svg";
-import southWellsLogo from "../assets/Logos/3SW-logo.png"
+import southWellsLogo from "../assets/Logos/3SW-logo-v2.png";
 
 function Navbar() {
     const [changeBackground, setChangeBackground] = useState(false);
@@ -15,29 +15,26 @@ function Navbar() {
 
     window.addEventListener("scroll", changeColor);
 
-    const navMenuLinks = changeBackground
-        ? "nav-link text-dark py-1"
-        : "nav-link text-dark py-1";
+    const navMenuLinks = "nav-link py-1 text-uppercase";
 
     return (
         <div
-            className={
-                changeBackground ? "navbar navbar-bg m-0 p-0" : "navbar m-0 p-0"
-            }
-            // onMouseEnter={() => setChangeBackground(true)}
-            // onMouseLeave={() => setChangeBackground(false)}
+            className="navbar m-0 p-0"
+            // {
+            //     changeBackground
+            //         ? "navbar navbar-bg bg-light m-0 p-0 "
+            //         : "navbar m-0 p-0 "
+            // }
         >
-            <nav className="container navbar navbar-expand-md " id="navID">
+            <nav className="container navbar navbar-expand-md" id="navID">
                 <div className="container-fluid">
-                    <a
-                        className={
-                            changeBackground
-                                ? "navbar-brand text-secondary p-0 "
-                                : "navbar-brand text-dark p-0"
-                        }
-                        href="#"
-                    >
-                        <img src={southWellsLogo} alt="3sw-logo" width="100" id="logo-name" />
+                    <a href="/">
+                        <img
+                            src={southWellsLogo}
+                            alt="3sw-logo"
+                            width="100"
+                            id="logo-name"
+                        />
                     </a>
                     <button
                         className="navbar-toggler border-0 p-1"
@@ -58,7 +55,7 @@ function Navbar() {
                         <ul className="navbar-nav ms-auto align-items-center ">
                             <li className="nav-item m-0">
                                 <a
-                                    className={navMenuLinks}
+                                    className="nav-link active py-1 text-uppercase"
                                     aria-current="page"
                                     href="#about"
                                 >
@@ -66,23 +63,32 @@ function Navbar() {
                                 </a>
                             </li>
                             <li className="nav-item m-0">
-                                <a className={navMenuLinks} href="#leasing">
-                                    Leasing
+                                <a
+                                    className="nav-link py-1 text-uppercase"
+                                    href="#leasing"
+                                >
+                                    For Lease
                                 </a>
                             </li>
                             <li className="nav-item m-0 ">
-                                <a className={navMenuLinks} href="#partners">
+                                <a
+                                    className="nav-link py-1 text-uppercase"
+                                    href="#partners"
+                                >
                                     Partners
                                 </a>
                             </li>
                             <li className="nav-item m-0">
-                                <a className={navMenuLinks} href="#contact">
+                                <a
+                                    className="nav-link py-1 text-uppercase"
+                                    href="#contact"
+                                >
                                     Contact
                                 </a>
                             </li>
                             <li className="nav-item m-0">
                                 <a
-                                    className={navMenuLinks}
+                                    className="nav-link py-1 text-uppercase"
                                     href="#theCourtyard"
                                 >
                                     The Courtyard

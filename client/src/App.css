@@ -5,39 +5,30 @@
     justify-content: center;
     padding: 10px;
     padding-bottom: 0px;
+    padding-top: 100px;
     margin: auto;
-    /* height:100%; */
-    /* overflow: auto; */
+    /* height: 5000px; */
 }
 
 .App {
     text-align: center;
 }
 
-.background-image {
-    background-image: url("./assets/1C-website-cover-v2.jpg");
-    background-repeat: no-repeat;
-    position: relative;
-    /* height: 100vh; */
-    /* z-index: 100; */
-}
 
 .navbar {
-    /* position: fixed; */
-    top:-.2em;
+    top: 0;
     bottom: 0;
-    position: sticky;
     transition: 0.2s ease-in;
     z-index: 100;
 }
 
-.navbar-bg {
-    background-color: #DDDAD7;
+/* .navbar-bg {
+
     opacity: 0.98;
-}
+} */
 
 .footer-bg {
-    background-color: #DDDAD7;
+    background-color: #eae7e4;
 }
 
 footer {
