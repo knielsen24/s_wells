@@ -1,5 +1,6 @@
 import { useState } from "react";
 import listIcon from "../assets/list-icon.svg";
+import southWellsLogo from "../assets/Logos/3SW-logo.png"
 
 function Navbar() {
     const [changeBackground, setChangeBackground] = useState(false);
@@ -15,29 +16,28 @@ function Navbar() {
     window.addEventListener("scroll", changeColor);
 
     const navMenuLinks = changeBackground
-        ? "nav-link text-white"
-        : "nav-link text-dark";
+        ? "nav-link text-dark py-1"
+        : "nav-link text-dark py-1";
 
     return (
         <div
-            className={changeBackground ? "navbar navbar-bg m-0 " : "navbar m-0 "}
+            className={
+                changeBackground ? "navbar navbar-bg m-0 p-0" : "navbar m-0 p-0"
+            }
             // onMouseEnter={() => setChangeBackground(true)}
             // onMouseLeave={() => setChangeBackground(false)}
         >
-            <nav
-                className="container navbar navbar-expand-md "
-                id="navID"
-            >
+            <nav className="container navbar navbar-expand-md " id="navID">
                 <div className="container-fluid">
                     <a
                         className={
                             changeBackground
-                                ? "navbar-brand text-white ps-1"
-                                : "navbar-brand text-dark ps-1"
+                                ? "navbar-brand text-secondary p-0 "
+                                : "navbar-brand text-dark p-0"
                         }
                         href="#"
                     >
-                        300 South Wells
+                        <img src={southWellsLogo} alt="3sw-logo" width="100" id="logo-name" />
                     </a>
                     <button
                         className="navbar-toggler border-0 p-1"
@@ -81,7 +81,10 @@ function Navbar() {
                                 </a>
                             </li>
                             <li className="nav-item m-0">
-                                <a className={navMenuLinks} href="#theCourtyard">
+                                <a
+                                    className={navMenuLinks}
+                                    href="#theCourtyard"
+                                >
                                     The Courtyard
                                 </a>
                             </li>

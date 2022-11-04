@@ -5,7 +5,7 @@ import CarouselButtons from "./CarouselButtons";
 
 function Carousel() {
 
-    const captionClass = "carousel-caption float-start p-2 bg-light d-none d-sm-block rounded text-dark"
+    const captionClass = "carousel-caption float-start p-2 bg-light bg-opacity-75 d-none d-sm-block rounded text-dark"
 
     return (
         <div className="container-fluid m-auto p-0 justify-content-center ">
