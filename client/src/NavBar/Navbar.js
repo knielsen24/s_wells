@@ -69,14 +69,14 @@ function Navbar() {
                                     For Lease
                                 </a>
                             </li>
-                            <li className="nav-item m-0">
+                            {/* <li className="nav-item m-0">
                                 <a
                                     className="nav-link pt-1 pb-0 text-uppercase"
                                     href="#venue"
                                 >
                                     Venue
                                 </a>
-                            </li>
+                            </li> */}
                             <li className="nav-item m-0 ">
                                 <a
                                     className="nav-link pt-1 pb-0 text-uppercase"
