@@ -3,6 +3,8 @@ import landingTwo from "../assets/Building/sw-main-2-wide.jpg";
 import landingThree from "../assets/Building/sw-main-3-wide.jpg";
 import landingFour from "../assets/Building/sw-main-4-wide.jpg";
 import landingFive from "../assets/Building/sw-main-5-wide.jpg";
+import landingSix from "../assets/Building/sw-main-6-wide.jpg";
+
 
 function Carousel() {
     const captionClassOne =
@@ -68,7 +70,7 @@ function Carousel() {
                         <img
                             src={landingFour}
                             className="d-block w-100 "
-                            alt="property-courtyard"
+                            alt="courtyard-1"
                             loading="lazy"
                         />
                         {/* <div className={captionClassOne}>
@@ -82,7 +84,7 @@ function Carousel() {
                         <img
                             src={landingFive}
                             className="d-block w-100 "
-                            alt="property-courtyard"
+                            alt="courtyard-2"
                             loading="lazy"
                         />
                         {/* <div className={captionClassOne}>
@@ -91,6 +93,14 @@ function Carousel() {
                                         The common areas are great for customers and employees
                                     </p>
                                 </div> */}
+                    </div>
+                    <div className="carousel-item" data-bs-interval="5000">
+                        <img
+                            src={landingSix}
+                            className="d-block w-100 "
+                            alt="signage"
+                            loading="lazy"
+                        />
                     </div>
                 </div>
                 <button
