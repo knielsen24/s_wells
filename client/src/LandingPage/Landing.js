@@ -18,7 +18,7 @@ function Landing() {
             </div>
             <div
                 className=" row p-0 w-auto justify-content-center"
-                id="lease"
+                id="for-lease"
             >
                 <ForLease />
             </div>

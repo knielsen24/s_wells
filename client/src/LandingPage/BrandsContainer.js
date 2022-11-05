@@ -5,6 +5,9 @@ import entravisionLogo from "../assets/Logos/entravision-logo.webp";
 import handCraftCoffee from "../assets/Logos/handcraft-logo.jpg";
 import dorindasLogo from "../assets/Logos/dorindas-logo.avif";
 import vanmarLogo from "../assets/Logos/vanmar-logo.webp"
+import walgreensLogo from "../assets/Logos/walgreens-logo.png"
+import rideConceptsLogo from "../assets/Logos/ride-concepts-logo.png"
+import craigTeamLogo from "../assets/Logos/craig-team-realty-logo.png"
 
 function BrandsContainer() {
 
@@ -50,7 +53,31 @@ function BrandsContainer() {
                                 width="190"
                             />
                         </div>
-                        <div className="col mx-4">
+                        <div className={brandsColClass}>
+                            <img
+                                className=""
+                                src={walgreensLogo}
+                                alt="walgreens"
+                                width="190"
+                            />
+                        </div>
+                        <div className={brandsColClass}>
+                            <img
+                                className=""
+                                src={rideConceptsLogo}
+                                alt="ride-concepts"
+                                width="190"
+                            />
+                        </div>
+                        <div className={brandsColClass}>
+                            <img
+                                className="bg-dark"
+                                src={craigTeamLogo}
+                                alt="craig-team-realty-exp"
+                                width="190"
+                            />
+                        </div>
+                        <div className={brandsColClass}>
                             <img
                                 className=""
                                 src={dorindasLogo}
@@ -58,14 +85,14 @@ function BrandsContainer() {
                                 width="190"
                             />
                         </div>
-                        {/* <div className={brandsColClass}>
+                        <div className={brandsColClass}>
                             <img
                                 className=""
                                 src={atelierLogo}
                                 alt="atelier logo"
                                 width="190"
                             />
-                        </div> */}
+                        </div>
                         <div className="col mx-4">
                             <img
                                 className="rounded-circle"
