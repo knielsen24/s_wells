@@ -54,7 +54,7 @@ function Navbar() {
                         <ul className="navbar-nav ms-auto align-items-center ">
                             <li className="nav-item m-0">
                                 <a
-                                    className="nav-link active py-1 text-uppercase"
+                                    className="nav-link active py-1 text-uppercase fw-bold"
                                     aria-current="page"
                                     href="#about"
                                 >

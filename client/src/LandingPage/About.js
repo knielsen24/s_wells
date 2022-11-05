@@ -11,7 +11,7 @@ function About() {
 
     return (
         <div className="row mt-3 justify-content-center">
-            <h4 className="my-3 p-1 bg-light rounded border">
+            <h4 className="my-3 p-1 bg-light rounded border text-uppercase">
                 About
             </h4>
             <p>
