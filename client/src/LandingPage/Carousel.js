@@ -11,7 +11,7 @@ function Carousel() {
     const captionClassTwo = "carousel-caption p-2 mx-0 d-none d-sm-block rounded text-dark"
 
     return (
-        <div className="container-fluid m-auto p-0 justify-content-center ">
+        <div className="container m-auto p-0 justify-content-center ">
             <div className="row m-auto p-0 ">
                 <div className="col m-0 p-0 carousel-column ">
                     <div
