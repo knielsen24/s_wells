@@ -1,5 +1,4 @@
 import { useState } from "react";
-import listIcon from "../assets/list-icon.svg";
 import southWellsLogo from "../assets/Logos/3SW-logo-v2.png";
 
 function Navbar() {
@@ -86,42 +85,6 @@ function Navbar() {
                                     Contact
                                 </a>
                             </li>
-                            <li className="nav-item m-0">
-                                <a
-                                    className="nav-link py-1 text-uppercase"
-                                    href="#theCourtyard"
-                                >
-                                    The Courtyard
-                                </a>
-                            </li>
-                            {/* <li className="nav-item dropdown">
-                                <a
-                                    className="nav-link dropdown-toggle"
-                                    href="#"
-                                    role="button"
-                                    data-bs-toggle="dropdown"
-                                    aria-expanded="false"
-                                >
-                                    Tenants
-                                </a>
-                                <ul className="dropdown-menu">
-                                    <li>
-                                        <a className="dropdown-item" href="#">
-                                            Action
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a className="dropdown-item" href="#">
-                                            Another action
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a className="dropdown-item" href="#">
-                                            Something else here
-                                        </a>
-                                    </li>
-                                </ul>
-                            </li> */}
                         </ul>
                     </div>
                 </div>

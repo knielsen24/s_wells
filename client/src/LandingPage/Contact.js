@@ -1,16 +1,29 @@
 import logicLogo from "../assets/Logos/logic-logo.png";
 
 function Contact() {
-
-    const contactClassPtag = "m-1 mx-5"
-    const contactColTag = "col my-2"
+    const contactClassPtag = "m-1 mx-5";
+    const contactColTag = "col my-2";
+    const logicURL = "https://logiccre.com/"
 
     return (
         <div className="col flex-lg-column">
             <h4 className="my-3 p-1 bg-light rounded border">Contact</h4>
+            <div>
+            <a target="_blank" href={logicURL}>
+            <img
+                    className="py-2"
+                    src={logicLogo}
+                    alt="logic-logo"
+                    width="125px"
+                />
+                        </a>
 
-            <img className="py-2" src={logicLogo} alt="logic-logo" width="125px" />
-            <p className="py-1 m-1">For more information please contact a Logic Commerial Real Estate representative</p>
+            </div>
+
+            <p className="py-1 m-1">
+                For more information please contact a Logic Commerial Real
+                Estate representative
+            </p>
             {/* <div className="row justify-content-center">
                 <div className="col"> </div>
             </div> */}
@@ -25,7 +38,7 @@ function Contact() {
                     <p className={contactClassPtag}>775-450-5779</p>
                     <p className={contactClassPtag}>gruzzine@logicCRE.com</p>
                 </div>
-                <div className={contactColTag} >
+                <div className={contactColTag}>
                     <p className={contactClassPtag}>Mike Dorn</p>
                     <p className={contactClassPtag}>775-453-4436</p>
                     <p className={contactClassPtag}>mdorn@logicCRE.com</p>
