@@ -26,6 +26,7 @@ function Carousel() {
                             src={landingOne}
                             className="d-block w-100 carousel-cover"
                             alt="property-front"
+                            loading="lazy"
                         />
                         <div className={captionClassOne}>
                             <h2>300 South Wells Ave.</h2>
@@ -39,6 +40,7 @@ function Carousel() {
                             src={landingTwo}
                             className="d-block w-100 carousel-cover"
                             alt="property-street"
+                            loading="lazy"
                         />
                         <div className={captionClassOne}>
                             <h2>Lease a space</h2>
@@ -53,6 +55,7 @@ function Carousel() {
                             src={landingThree}
                             className="d-block w-100 "
                             alt="property-courtyard"
+                            loading="lazy"
                         />
                         {/* <div className={captionClassTwo}>
                                     <h2>Communial Space</h2>
@@ -66,6 +69,7 @@ function Carousel() {
                             src={landingFour}
                             className="d-block w-100 "
                             alt="property-courtyard"
+                            loading="lazy"
                         />
                         {/* <div className={captionClassOne}>
                                     <h2>The Courtyard</h2>
@@ -79,6 +83,7 @@ function Carousel() {
                             src={landingFive}
                             className="d-block w-100 "
                             alt="property-courtyard"
+                            loading="lazy"
                         />
                         {/* <div className={captionClassOne}>
                                     <h2>The Courtyard</h2>
