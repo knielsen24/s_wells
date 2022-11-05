@@ -63,7 +63,7 @@ function Navbar() {
                             </li>
                             <li className="nav-item m-0">
                                 <a
-                                    className="nav-link py-1 text-uppercase"
+                                    className="nav-link py-1 text-uppercase m-0"
                                     href="#for-lease"
                                 >
                                     For Lease

@@ -49,11 +49,15 @@ footer {
     height: 24vh;
 } */
 
+
+
 .nav-link {
-    border-bottom: 5px solid transparent;
+    border-bottom: 4px solid transparent;
 }
 
+
 .nav-link:hover {
-    border-bottom: 5px solid #595C61;
-    transition: .5s ease-in;
+    border-bottom: 4px solid #595c61;
+    font-weight: 400;
+    transition: 0.2s ease-in;
 }
