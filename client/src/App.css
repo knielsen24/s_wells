@@ -49,12 +49,9 @@ footer {
     height: 24vh;
 } */
 
-
-
 .nav-link {
     border-bottom: 4px solid transparent;
 }
-
 
 .nav-link:hover {
     border-bottom: 4px solid #595c61;

@@ -54,7 +54,7 @@ function Navbar() {
                         <ul className="navbar-nav ms-auto align-items-center ">
                             <li className="nav-item m-0 ">
                                 <a
-                                    className="nav-link active py-1 text-uppercase"
+                                    className="nav-link active pt-1 pb-0 text-uppercase"
                                     aria-current="page"
                                     href="#about"
                                 >
@@ -63,7 +63,7 @@ function Navbar() {
                             </li>
                             <li className="nav-item m-0">
                                 <a
-                                    className="nav-link py-1 text-uppercase m-0"
+                                    className="nav-link pt-1 pb-0 text-uppercase m-0"
                                     href="#for-lease"
                                 >
                                     For Lease
@@ -71,7 +71,7 @@ function Navbar() {
                             </li>
                             <li className="nav-item m-0">
                                 <a
-                                    className="nav-link py-1 text-uppercase"
+                                    className="nav-link pt-1 pb-0 text-uppercase"
                                     href="#venue"
                                 >
                                     Venue
@@ -79,7 +79,7 @@ function Navbar() {
                             </li>
                             <li className="nav-item m-0 ">
                                 <a
-                                    className="nav-link py-1 text-uppercase"
+                                    className="nav-link pt-1 pb-0 text-uppercase"
                                     href="#partners"
                                 >
                                     Partners
@@ -87,7 +87,7 @@ function Navbar() {
                             </li>
                             <li className="nav-item m-0">
                                 <a
-                                    className="nav-link py-1 text-uppercase"
+                                    className="nav-link pt-1 pb-0 text-uppercase"
                                     href="#contact"
                                 >
                                     Contact
