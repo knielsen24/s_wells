@@ -5,7 +5,6 @@ import landingFour from "../assets/Building/sw-main-4-wide.jpg";
 import landingFive from "../assets/Building/sw-main-5-wide.jpg";
 import landingSix from "../assets/Building/sw-main-6-wide.jpg";
 
-
 function Carousel() {
     const captionClassOne =
         "carousel-caption p-2 mx-0 d-none d-sm-block rounded text-white";
@@ -31,8 +30,10 @@ function Carousel() {
                             loading="lazy"
                         />
                         <div className={captionClassOne}>
-                            <h2>300 South Wells Ave.</h2>
-                            <h5 className="m-0">
+                            <h2 className="text-capitalize">
+                                300 South Wells Ave.
+                            </h2>
+                            <h5 className="m-0 text-capitalize">
                                 Mixed Use Retro Industrial buidling
                             </h5>
                         </div>
@@ -45,11 +46,11 @@ function Carousel() {
                             loading="lazy"
                         />
                         <div className={captionClassOne}>
-                            <h2>Lease a space</h2>
-                            <p className="m-0">
+                            <h2 className="text-capitalize">Space availible</h2>
+                            <h5 className="m-0 text-capitalize">
                                 Click here to get more information on
                                 availibility
-                            </p>
+                            </h5>
                         </div>
                     </div>
                     <div className="carousel-item" data-bs-interval="5000">

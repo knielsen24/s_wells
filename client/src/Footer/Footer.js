@@ -3,7 +3,7 @@ import southWellsLogo from "../assets/Logos/3SW-logo-v2.png";
 function Footer() {
     return (
         <footer className="mt-auto border-top border-1 bg-light text-dark bg-gradient ">
-            <div className="container">
+            <div className="container fluid">
                 <div className="row align-items-center justify-content-between ">
                     <div className="col ">
                         300 South Wells

@@ -10,10 +10,17 @@ function ForLease() {
             </h4>
             <div className="row">
                 <div className="col">
-                    <h5>Suite 6 - 2,498 SF</h5>
+                    <p className="">Suite 6 - 2,498 SF</p>
                 </div>
                 <div className="col">
-                    <h5>Suite 9 - 3,950 SF</h5>
+                    <p className="">Suite 9 - 3,950 SF</p>
+                </div>
+            </div>
+            <div className="row mt-3">
+                <div className="col">
+                    <a type="button" className="btn-primary" href="#contact">
+                        Go to Contact information
+                    </a>
                 </div>
             </div>
         </div>

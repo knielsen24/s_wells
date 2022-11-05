@@ -14,9 +14,8 @@ function App() {
             <Navbar />
             <div className="container-md row m-auto p-0 main-container justify-content-center">
                 <Landing />
-
-                <Footer />
             </div>
+            <Footer />
         </body>
     );
 }
