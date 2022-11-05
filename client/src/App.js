@@ -12,12 +12,10 @@ function App() {
             id="app-container"
         >
             <Navbar />
-            <div className="ms-auto main-container">
-                <div className="">
-                    <Landing />
+            <div className="container-md row m-auto p-0 main-container justify-content-center">
+                <Landing />
 
-                    <Footer />
-                </div>
+                <Footer />
             </div>
         </body>
     );

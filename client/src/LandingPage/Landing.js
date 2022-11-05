@@ -5,17 +5,26 @@ import Contact from "./Contact";
 
 function Landing() {
     return (
-        <div className="container-fluid text-center ">
-            <div className="container-sm row m-auto w-auto justify-content-center">
+        <div className="col text-center ">
+            <div className=" row p-0 w-auto justify-content-center">
                 <Carousel />
             </div>
-            <div className="row w-auto justify-content-center" id="about">
+            <div
+                className=" row p-0 w-auto justify-content-center"
+                id="about"
+            >
                 <About />
             </div>
-            <div className="row w-auto justify-content-center" id="partners">
+            <div
+                className=" row p-0 w-auto justify-content-center"
+                id="partners"
+            >
                 <BrandsContainer />
             </div>
-            <div className="row w-auto justify-content-center" id="contact">
+            <div
+                className=" row p-0 w-auto justify-content-center"
+                id="contact"
+            >
                 <Contact />
             </div>
         </div>
