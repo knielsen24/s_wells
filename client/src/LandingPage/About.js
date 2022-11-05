@@ -57,7 +57,6 @@ function About() {
                     </div>
                 </div>
             </div>
-            {/* <div className="col-6"></div> */}
         </div>
     );
 }

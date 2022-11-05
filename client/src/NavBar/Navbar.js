@@ -69,6 +69,14 @@ function Navbar() {
                                     For Lease
                                 </a>
                             </li>
+                            <li className="nav-item m-0">
+                                <a
+                                    className="nav-link py-1 text-uppercase"
+                                    href="#leasing"
+                                >
+                                    event venue
+                                </a>
+                            </li>
                             <li className="nav-item m-0 ">
                                 <a
                                     className="nav-link py-1 text-uppercase"

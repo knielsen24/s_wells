@@ -2,6 +2,7 @@ import About from "./About";
 import BrandsContainer from "./BrandsContainer";
 import Carousel from "./Carousel";
 import Contact from "./Contact";
+import ForLease from "./ForLease";
 
 function Landing() {
     return (
@@ -14,6 +15,12 @@ function Landing() {
                 id="about"
             >
                 <About />
+            </div>
+            <div
+                className=" row p-0 w-auto justify-content-center"
+                id="lease"
+            >
+                <ForLease />
             </div>
             <div
                 className=" row p-0 w-auto justify-content-center"
