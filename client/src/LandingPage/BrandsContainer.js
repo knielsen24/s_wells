@@ -123,7 +123,7 @@ function BrandsContainer() {
                                 />
                             </a>
                         </div>
-                        <div className="col mx-4">
+                        <div className={brandsColClass}>
                         <a target="_blank" href={handCraftURL}>
 
                             <img

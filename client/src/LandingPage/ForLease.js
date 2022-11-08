@@ -10,9 +10,6 @@ function ForLease() {
             </h4>
             <div className="row">
                 <div className="col">
-                    <p className="">Suite 6 - 2,498 SF</p>
-                </div>
-                <div className="col">
                     <p className="">Suite 9 - 3,950 SF</p>
                 </div>
             </div>
