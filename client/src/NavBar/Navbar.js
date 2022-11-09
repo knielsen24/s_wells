@@ -1,5 +1,5 @@
 import { useState } from "react";
-import southWellsLogo from "../assets/Logos/3SW-logo-v2.png";
+import southWellsLogo from "../assets/Logos/3SW-logo-white.png";
 
 function Navbar() {
     const [changeBackground, setChangeBackground] = useState(false);
@@ -54,7 +54,7 @@ function Navbar() {
                         <ul className="navbar-nav ms-auto align-items-center ">
                             <li className="nav-item m-0 ">
                                 <a
-                                    className="nav-link active pt-1 pb-0 text-uppercase"
+                                    className="nav-link active pt-1 pb-0 text-uppercase "
                                     aria-current="page"
                                     href="#about"
                                 >
@@ -69,22 +69,6 @@ function Navbar() {
                                     For Lease
                                 </a>
                             </li>
-                            {/* <li className="nav-item m-0">
-                                <a
-                                    className="nav-link pt-1 pb-0 text-uppercase"
-                                    href="#venue"
-                                >
-                                    Venue
-                                </a>
-                            </li> */}
-                            <li className="nav-item m-0 ">
-                                <a
-                                    className="nav-link pt-1 pb-0 text-uppercase"
-                                    href="#partners"
-                                >
-                                    Partners
-                                </a>
-                            </li>
                             <li className="nav-item m-0">
                                 <a
                                     className="nav-link pt-1 pb-0 text-uppercase"
@@ -93,6 +77,23 @@ function Navbar() {
                                     Contact
                                 </a>
                             </li>
+                            <li className="nav-item m-0">
+                                <a
+                                    className="nav-link pt-1 pb-0 text-uppercase"
+                                    href="#venue"
+                                >
+                                    Courtyard Venue
+                                </a>
+                            </li>
+                            <li className="nav-item m-0 ">
+                                <a
+                                    className="nav-link pt-1 pb-0 text-uppercase"
+                                    href="#partners"
+                                >
+                                    Partners
+                                </a>
+                            </li>
+
                         </ul>
                     </div>
                 </div>

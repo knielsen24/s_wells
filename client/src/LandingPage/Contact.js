@@ -1,8 +1,9 @@
-import logicLogo from "../assets/Logos/logic-logo.png";
 
 function Contact() {
     const contactClassPtag = "m-1 mx-5";
     const contactColTag = "col my-2";
+
+    const logicLogo = "https://res.cloudinary.com/dooa4lvvv/image/upload/v1667953762/Southwells/logos/logic-logo_u7tz6o.png"
     const logicURL = "https://logiccre.com/";
 
     return (

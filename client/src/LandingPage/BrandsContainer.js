@@ -1,13 +1,4 @@
-import theMillLogo from "../assets/Logos/the-mill-barre.png";
-import atelierLogo from "../assets/Logos/atelier-logo.png";
-import terraphaseLogo from "../assets/Logos/terraphase_logo.svg";
-import entravisionLogo from "../assets/Logos/entravision-logo.webp";
-import handCraftCoffee from "../assets/Logos/handcraft-logo.jpg";
-import dorindasLogo from "../assets/Logos/dorindas-logo.avif";
-import vanmarLogo from "../assets/Logos/vanmar-logo.webp";
-import walgreensLogo from "../assets/Logos/walgreens-logo.png";
-import rideConceptsLogo from "../assets/Logos/ride-concepts-logo.png";
-import craigTeamLogo from "../assets/Logos/craig-team-realty-logo.png";
+
 
 function BrandsContainer() {
     const handCraftURL = "https://www.handcraftcoffeecompany.com/";
@@ -20,6 +11,20 @@ function BrandsContainer() {
     const walgreensURL = "https://www.walgreens.com/";
     const rideConceptsURL = "https://rideconcepts.com/";
     const craigTeamURL = "https://www.craigteamrealty.com/";
+    const liveKayaURL = ""
+
+    const terraphaseLogo = "https://res.cloudinary.com/dooa4lvvv/image/upload/v1667953762/Southwells/logos/terraphase_logo_henras.svg"
+    const handCraftLogo = "https://res.cloudinary.com/dooa4lvvv/image/upload/v1667953762/Southwells/logos/HandCraft-Logo-RGB-Black_Social_Media_Art_1_usnf2q.jpg"
+    const dorindasLogo = "https://res.cloudinary.com/dooa4lvvv/image/upload/v1667953761/Southwells/logos/dorindas-logo_hwxwzd.png"
+    const theMillBarreLogo = "https://res.cloudinary.com/dooa4lvvv/image/upload/v1667953763/Southwells/logos/the-mill-barre_rg18nw.png"
+    const atelierLogo = "https://res.cloudinary.com/dooa4lvvv/image/upload/v1667953760/Southwells/logos/atelier-logo_odbgpl.png"
+    const entravisionLogo = "https://res.cloudinary.com/dooa4lvvv/image/upload/v1667953761/Southwells/logos/entravision-logo_xjgq5i.webp"
+    const vanmarLogo = "https://res.cloudinary.com/dooa4lvvv/image/upload/v1667953763/Southwells/logos/vanmar-logo_ujr4w3.webp"
+    const walgreensLogo = "https://res.cloudinary.com/dooa4lvvv/image/upload/v1667953763/Southwells/logos/walgreens-logo_zrburw.png"
+    const rideConceptsLogo = "https://res.cloudinary.com/dooa4lvvv/image/upload/v1667953762/Southwells/logos/ride-concepts-logo_f0behc.png"
+    const craigTeamLogo = "https://res.cloudinary.com/dooa4lvvv/image/upload/v1667953761/Southwells/logos/craig-team-realty-logo_usgwfx.png"
+    const liveKayaLogo = ""
+
 
     const brandsColClass = "col mx-5 my-3";
 
@@ -36,7 +41,7 @@ function BrandsContainer() {
                             <a target="_blank" href={theMillBarreURL}>
                                 <img
                                     className=""
-                                    src={theMillLogo}
+                                    src={theMillBarreLogo}
                                     alt="the mill barre logo"
                                     width="190"
                                 />
@@ -109,7 +114,7 @@ function BrandsContainer() {
                                     className=""
                                     src={dorindasLogo}
                                     alt="dorinda's chocolates logo"
-                                    width="190"
+                                    width="275"
                                 />
                             </a>
                         </div>
@@ -128,7 +133,7 @@ function BrandsContainer() {
 
                             <img
                                 className="rounded-circle"
-                                src={handCraftCoffee}
+                                src={handCraftLogo}
                                 alt="hand craft coffee logo"
                                 width="125px"
                             /></a>

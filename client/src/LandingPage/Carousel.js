@@ -3,7 +3,7 @@ import landingTwo from "../assets/Building/sw-main-2-wide.jpg";
 import landingThree from "../assets/Building/sw-main-3-wide.jpg";
 import landingFour from "../assets/Building/sw-main-4-wide.jpg";
 import landingFive from "../assets/Building/sw-main-5-wide.jpg";
-import landingSix from "../assets/Building/sw-main-6-wide.jpg";
+import landingSeven from "../assets/Building/sw-main-wide-7.jpg";
 
 function Carousel() {
     const captionClassOne =
@@ -46,10 +46,10 @@ function Carousel() {
                             loading="lazy"
                         />
                         <div className={captionClassOne}>
-                            <h2 className="text-capitalize">Space availible</h2>
+                            <h2 className="text-capitalize">Space available</h2>
                             <h5 className="m-0 text-capitalize">
                                 Click here to get more information on
-                                availibility
+                                availability
                             </h5>
                         </div>
                     </div>
@@ -95,14 +95,14 @@ function Carousel() {
                                     </p>
                                 </div> */}
                     </div>
-                    <div className="carousel-item" data-bs-interval="5000">
+                    {/* <div className="carousel-item" data-bs-interval="5000">
                         <img
-                            src={landingSix}
+                            src={landingSeven}
                             className="d-block w-100 "
                             alt="signage"
                             loading="lazy"
                         />
-                    </div>
+                    </div> */}
                 </div>
                 <button
                     className="carousel-control-prev ms-3"
