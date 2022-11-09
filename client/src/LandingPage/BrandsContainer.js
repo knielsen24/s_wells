@@ -114,7 +114,7 @@ function BrandsContainer() {
                                     className=""
                                     src={dorindasLogo}
                                     alt="dorinda's chocolates logo"
-                                    width="275"
+                                    width="165"
                                 />
                             </a>
                         </div>

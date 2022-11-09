@@ -1,11 +1,12 @@
-import landingOne from "../assets/Building/sw-main-1-wide.jpg";
-import landingTwo from "../assets/Building/sw-main-2-wide.jpg";
-import landingThree from "../assets/Building/sw-main-3-wide.jpg";
-import landingFour from "../assets/Building/sw-main-4-wide.jpg";
-import landingFive from "../assets/Building/sw-main-5-wide.jpg";
-import landingSeven from "../assets/Building/sw-main-wide-7.jpg";
+
 
 function Carousel() {
+    const landingOneURL = "https://res.cloudinary.com/dooa4lvvv/image/upload/v1668028243/Southwells/Landing%20%28Carousel%29/sw-main-1-wide_rker0b.jpg"
+    const landingTwoURL = "https://res.cloudinary.com/dooa4lvvv/image/upload/v1668028244/Southwells/Landing%20%28Carousel%29/sw-main-2-wide_jw5lpk.jpg"
+    const landingThreeURL = "https://res.cloudinary.com/dooa4lvvv/image/upload/v1668028240/Southwells/Landing%20%28Carousel%29/sw-main-3-wide_buumhd.jpg"
+    const landingFourURL = "https://res.cloudinary.com/dooa4lvvv/image/upload/v1668028251/Southwells/Landing%20%28Carousel%29/sw-main-4-wide_fgmwke.jpg"
+    const landingFiveURL = "https://res.cloudinary.com/dooa4lvvv/image/upload/v1668028245/Southwells/Landing%20%28Carousel%29/sw-main-5-wide_vwufap.jpg"
+
     const captionClassOne =
         "carousel-caption p-2 mx-0 d-none d-sm-block rounded text-white";
     const captionClassTwo =
@@ -24,7 +25,7 @@ function Carousel() {
                         data-bs-interval="5000"
                     >
                         <img
-                            src={landingOne}
+                            src={landingOneURL}
                             className="d-block w-100 carousel-cover"
                             alt="property-front"
                             loading="lazy"
@@ -40,10 +41,10 @@ function Carousel() {
                     </div>
                     <div className="carousel-item" data-bs-interval="5000">
                         <img
-                            src={landingTwo}
+                            src={landingTwoURL}
                             className="d-block w-100 carousel-cover"
                             alt="property-street"
-                            loading="lazy"
+                            // loading="lazy"
                         />
                         <div className={captionClassOne}>
                             <h2 className="text-capitalize">Space available</h2>
@@ -55,7 +56,7 @@ function Carousel() {
                     </div>
                     <div className="carousel-item" data-bs-interval="5000">
                         <img
-                            src={landingThree}
+                            src={landingThreeURL}
                             className="d-block w-100 "
                             alt="property-courtyard"
                             loading="lazy"
@@ -69,10 +70,10 @@ function Carousel() {
                     </div>
                     <div className="carousel-item" data-bs-interval="5000">
                         <img
-                            src={landingFour}
+                            src={landingFourURL}
                             className="d-block w-100 "
                             alt="courtyard-1"
-                            loading="lazy"
+                            // loading="lazy"
                         />
                         {/* <div className={captionClassOne}>
                                     <h2>The Courtyard</h2>
@@ -83,10 +84,10 @@ function Carousel() {
                     </div>
                     <div className="carousel-item" data-bs-interval="5000">
                         <img
-                            src={landingFive}
+                            src={landingFiveURL}
                             className="d-block w-100 "
                             alt="courtyard-2"
-                            loading="lazy"
+                            // loading="lazy"
                         />
                         {/* <div className={captionClassOne}>
                                     <h2>The Courtyard</h2>
