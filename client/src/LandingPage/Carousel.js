@@ -1,11 +1,14 @@
-
-
 function Carousel() {
-    const landingOneURL = "https://res.cloudinary.com/dooa4lvvv/image/upload/v1668028243/Southwells/Landing%20%28Carousel%29/sw-main-1-wide_rker0b.jpg"
-    const landingTwoURL = "https://res.cloudinary.com/dooa4lvvv/image/upload/v1668028244/Southwells/Landing%20%28Carousel%29/sw-main-2-wide_jw5lpk.jpg"
-    const landingThreeURL = "https://res.cloudinary.com/dooa4lvvv/image/upload/v1668028240/Southwells/Landing%20%28Carousel%29/sw-main-3-wide_buumhd.jpg"
-    const landingFourURL = "https://res.cloudinary.com/dooa4lvvv/image/upload/v1668028251/Southwells/Landing%20%28Carousel%29/sw-main-4-wide_fgmwke.jpg"
-    const landingFiveURL = "https://res.cloudinary.com/dooa4lvvv/image/upload/v1668028245/Southwells/Landing%20%28Carousel%29/sw-main-5-wide_vwufap.jpg"
+    const landingOneURL =
+        "https://res.cloudinary.com/dooa4lvvv/image/upload/v1668028243/Southwells/Landing%20%28Carousel%29/sw-main-1-wide_rker0b.jpg";
+    const landingTwoURL =
+        "https://res.cloudinary.com/dooa4lvvv/image/upload/v1668028244/Southwells/Landing%20%28Carousel%29/sw-main-2-wide_jw5lpk.jpg";
+    const landingThreeURL =
+        "https://res.cloudinary.com/dooa4lvvv/image/upload/v1668028240/Southwells/Landing%20%28Carousel%29/sw-main-3-wide_buumhd.jpg";
+    const landingFourURL =
+        "https://res.cloudinary.com/dooa4lvvv/image/upload/v1668028251/Southwells/Landing%20%28Carousel%29/sw-main-4-wide_fgmwke.jpg";
+    const landingFiveURL =
+        "https://res.cloudinary.com/dooa4lvvv/image/upload/v1668028245/Southwells/Landing%20%28Carousel%29/sw-main-5-wide_vwufap.jpg";
 
     const captionClassOne =
         "carousel-caption p-2 mx-0 d-none d-sm-block rounded text-white";
@@ -37,6 +40,7 @@ function Carousel() {
                             <h5 className="m-0 text-capitalize">
                                 Mixed Use Retro Industrial buidling
                             </h5>
+
                         </div>
                     </div>
                     <div className="carousel-item" data-bs-interval="5000">
@@ -47,11 +51,18 @@ function Carousel() {
                             // loading="lazy"
                         />
                         <div className={captionClassOne}>
-                            <h2 className="text-capitalize">Space available</h2>
-                            <h5 className="m-0 text-capitalize">
+                            <h2 className="text-capitalize">Leasing</h2>
+                            {/* <h5 className="m-0 text-capitalize">
                                 Click here to get more information on
                                 availability
-                            </h5>
+                            </h5> */}
+                            <a
+                                class="btn btn-outline-light fw-bold"
+                                href="#for-lease"
+                                role="button"
+                            >
+                                Check for availability
+                            </a>
                         </div>
                     </div>
                     <div className="carousel-item" data-bs-interval="5000">
