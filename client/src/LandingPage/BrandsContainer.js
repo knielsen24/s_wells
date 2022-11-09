@@ -11,7 +11,7 @@ function BrandsContainer() {
     const walgreensURL = "https://www.walgreens.com/";
     const rideConceptsURL = "https://rideconcepts.com/";
     const craigTeamURL = "https://www.craigteamrealty.com/";
-    const liveKayaURL = ""
+    const liveKayaURL = "https://livekaya.com/"
 
     const terraphaseLogo = "https://res.cloudinary.com/dooa4lvvv/image/upload/v1667953762/Southwells/logos/terraphase_logo_henras.svg"
     const handCraftLogo = "https://res.cloudinary.com/dooa4lvvv/image/upload/v1667953762/Southwells/logos/HandCraft-Logo-RGB-Black_Social_Media_Art_1_usnf2q.jpg"
@@ -23,7 +23,7 @@ function BrandsContainer() {
     const walgreensLogo = "https://res.cloudinary.com/dooa4lvvv/image/upload/v1667953763/Southwells/logos/walgreens-logo_zrburw.png"
     const rideConceptsLogo = "https://res.cloudinary.com/dooa4lvvv/image/upload/v1667953762/Southwells/logos/ride-concepts-logo_f0behc.png"
     const craigTeamLogo = "https://res.cloudinary.com/dooa4lvvv/image/upload/v1667953761/Southwells/logos/craig-team-realty-logo_usgwfx.png"
-    const liveKayaLogo = ""
+    const liveKayaLogo = "https://res.cloudinary.com/dooa4lvvv/image/upload/v1668031882/Southwells/logos/live-kaya-logo_re2yry.png"
 
 
     const brandsColClass = "col mx-5 my-3";
@@ -98,16 +98,7 @@ function BrandsContainer() {
                                 />
                             </a>
                         </div>
-                        <div className={brandsColClass}>
-                            <a target="_blank" href={craigTeamURL}>
-                                <img
-                                    className="bg-dark"
-                                    src={craigTeamLogo}
-                                    alt="craig-team-realty-exp"
-                                    width="190"
-                                />
-                            </a>
-                        </div>
+
                         <div className={brandsColClass}>
                             <a target="_blank" href={dorindasURL}>
                                 <img
@@ -115,6 +106,26 @@ function BrandsContainer() {
                                     src={dorindasLogo}
                                     alt="dorinda's chocolates logo"
                                     width="165"
+                                />
+                            </a>
+                        </div>
+                        <div className={brandsColClass}>
+                            <a target="_blank" href={liveKayaURL}>
+                                <img
+                                    className=""
+                                    src={liveKayaLogo}
+                                    alt="dorinda's chocolates logo"
+                                    width="165"
+                                />
+                            </a>
+                        </div>
+                        <div className={brandsColClass}>
+                            <a target="_blank" href={craigTeamURL}>
+                                <img
+                                    className="bg-dark"
+                                    src={craigTeamLogo}
+                                    alt="craig-team-realty-exp"
+                                    width="175"
                                 />
                             </a>
                         </div>
