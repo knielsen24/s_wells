@@ -23,7 +23,7 @@ function BrandsContainer() {
     const walgreensLogo = "https://res.cloudinary.com/dooa4lvvv/image/upload/v1667953763/Southwells/logos/walgreens-logo_zrburw.png"
     const rideConceptsLogo = "https://res.cloudinary.com/dooa4lvvv/image/upload/v1667953762/Southwells/logos/ride-concepts-logo_f0behc.png"
     const craigTeamLogo = "https://res.cloudinary.com/dooa4lvvv/image/upload/v1667953761/Southwells/logos/craig-team-realty-logo_usgwfx.png"
-    const liveKayaLogo = "https://res.cloudinary.com/dooa4lvvv/image/upload/v1668031882/Southwells/logos/live-kaya-logo_re2yry.png"
+    const liveKayaLogo = "https://res.cloudinary.com/dooa4lvvv/image/upload/v1668035851/Southwells/logos/LK_logo_Extended_BlueOnWhiteOrangeAccent_myfsbm.png"
 
 
     const brandsColClass = "col mx-5 my-3";
@@ -114,8 +114,8 @@ function BrandsContainer() {
                                 <img
                                     className=""
                                     src={liveKayaLogo}
-                                    alt="dorinda's chocolates logo"
-                                    width="165"
+                                    alt="live-kaya"
+                                    width="195"
                                 />
                             </a>
                         </div>
