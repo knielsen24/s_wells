@@ -23,6 +23,7 @@ function BrandsContainer() {
     const walgreensLogo = "https://res.cloudinary.com/dooa4lvvv/image/upload/v1667953763/Southwells/logos/walgreens-logo_zrburw.png"
     const rideConceptsLogo = "https://res.cloudinary.com/dooa4lvvv/image/upload/v1667953762/Southwells/logos/ride-concepts-logo_f0behc.png"
     const craigTeamLogo = "https://res.cloudinary.com/dooa4lvvv/image/upload/v1667953761/Southwells/logos/craig-team-realty-logo_usgwfx.png"
+    const craigTeamLogoV2 = "https://res.cloudinary.com/dooa4lvvv/image/upload/v1668036344/Southwells/logos/craig-team-logo-color_zjq6a8.jpg"
     const liveKayaLogo = "https://res.cloudinary.com/dooa4lvvv/image/upload/v1668035851/Southwells/logos/LK_logo_Extended_BlueOnWhiteOrangeAccent_myfsbm.png"
 
 
@@ -123,7 +124,7 @@ function BrandsContainer() {
                             <a target="_blank" href={craigTeamURL}>
                                 <img
                                     className="bg-dark"
-                                    src={craigTeamLogo}
+                                    src={craigTeamLogoV2}
                                     alt="craig-team-realty-exp"
                                     width="175"
                                 />
