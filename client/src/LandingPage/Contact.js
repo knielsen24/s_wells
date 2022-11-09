@@ -1,3 +1,5 @@
+//  need to create seperate sub-sections for leasing / courtyard contact
+
 
 function Contact() {
     const contactClassPtag = "m-1 mx-5";
@@ -15,7 +17,7 @@ function Contact() {
                         className="py-2"
                         src={logicLogo}
                         alt="logic-logo"
-                        width="125px"
+                        width="100px"
                     />
                 </a>
             </div>

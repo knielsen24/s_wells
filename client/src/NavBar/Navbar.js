@@ -80,7 +80,7 @@ function Navbar() {
                             <li className="nav-item m-0">
                                 <a
                                     className="nav-link pt-1 pb-0 text-uppercase"
-                                    href="#venue"
+                                    href="#courtyard"
                                 >
                                     Courtyard Venue
                                 </a>
