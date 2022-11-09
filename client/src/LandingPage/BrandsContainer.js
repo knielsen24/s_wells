@@ -1,5 +1,3 @@
-
-
 function BrandsContainer() {
     const handCraftURL = "https://www.handcraftcoffeecompany.com/";
     const dorindasURL = "https://dorindaschocolates.com/";
@@ -11,21 +9,30 @@ function BrandsContainer() {
     const walgreensURL = "https://www.walgreens.com/";
     const rideConceptsURL = "https://rideconcepts.com/";
     const craigTeamURL = "https://www.craigteamrealty.com/";
-    const liveKayaURL = "https://livekaya.com/"
+    const liveKayaURL = "https://livekaya.com/";
 
-    const terraphaseLogo = "https://res.cloudinary.com/dooa4lvvv/image/upload/v1667953762/Southwells/logos/terraphase_logo_henras.svg"
-    const handCraftLogo = "https://res.cloudinary.com/dooa4lvvv/image/upload/v1667953762/Southwells/logos/HandCraft-Logo-RGB-Black_Social_Media_Art_1_usnf2q.jpg"
-    const dorindasLogo = "https://res.cloudinary.com/dooa4lvvv/image/upload/v1667953761/Southwells/logos/dorindas-logo_hwxwzd.png"
-    const theMillBarreLogo = "https://res.cloudinary.com/dooa4lvvv/image/upload/v1667953763/Southwells/logos/the-mill-barre_rg18nw.png"
-    const atelierLogo = "https://res.cloudinary.com/dooa4lvvv/image/upload/v1667953760/Southwells/logos/atelier-logo_odbgpl.png"
-    const entravisionLogo = "https://res.cloudinary.com/dooa4lvvv/image/upload/v1667953761/Southwells/logos/entravision-logo_xjgq5i.webp"
-    const vanmarLogo = "https://res.cloudinary.com/dooa4lvvv/image/upload/v1667953763/Southwells/logos/vanmar-logo_ujr4w3.webp"
-    const walgreensLogo = "https://res.cloudinary.com/dooa4lvvv/image/upload/v1667953763/Southwells/logos/walgreens-logo_zrburw.png"
-    const rideConceptsLogo = "https://res.cloudinary.com/dooa4lvvv/image/upload/v1667953762/Southwells/logos/ride-concepts-logo_f0behc.png"
-    const craigTeamLogo = "https://res.cloudinary.com/dooa4lvvv/image/upload/v1667953761/Southwells/logos/craig-team-realty-logo_usgwfx.png"
-    const craigTeamLogoV2 = "https://res.cloudinary.com/dooa4lvvv/image/upload/v1668036344/Southwells/logos/craig-team-logo-color_zjq6a8.jpg"
-    const liveKayaLogo = "https://res.cloudinary.com/dooa4lvvv/image/upload/v1668035851/Southwells/logos/LK_logo_Extended_BlueOnWhiteOrangeAccent_myfsbm.png"
-
+    const terraphaseLogo =
+        "https://res.cloudinary.com/dooa4lvvv/image/upload/v1667953762/Southwells/logos/terraphase_logo_henras.svg";
+    const handCraftLogo =
+        "https://res.cloudinary.com/dooa4lvvv/image/upload/v1667953762/Southwells/logos/HandCraft-Logo-RGB-Black_Social_Media_Art_1_usnf2q.jpg";
+    const dorindasLogo =
+        "https://res.cloudinary.com/dooa4lvvv/image/upload/v1667953761/Southwells/logos/dorindas-logo_hwxwzd.png";
+    const theMillBarreLogo =
+        "https://res.cloudinary.com/dooa4lvvv/image/upload/v1667953763/Southwells/logos/the-mill-barre_rg18nw.png";
+    const atelierLogo =
+        "https://res.cloudinary.com/dooa4lvvv/image/upload/v1667953760/Southwells/logos/atelier-logo_odbgpl.png";
+    const entravisionLogo =
+        "https://res.cloudinary.com/dooa4lvvv/image/upload/v1667953761/Southwells/logos/entravision-logo_xjgq5i.webp";
+    const vanmarLogo =
+        "https://res.cloudinary.com/dooa4lvvv/image/upload/v1667953763/Southwells/logos/vanmar-logo_ujr4w3.webp";
+    const walgreensLogo =
+        "https://res.cloudinary.com/dooa4lvvv/image/upload/v1667953763/Southwells/logos/walgreens-logo_zrburw.png";
+    const rideConceptsLogo =
+        "https://res.cloudinary.com/dooa4lvvv/image/upload/v1667953762/Southwells/logos/ride-concepts-logo_f0behc.png";
+    const craigTeamLogo =
+        "https://res.cloudinary.com/dooa4lvvv/image/upload/v1668037134/Southwells/logos/craig-team-realty-logo-color_vdnfrs.png";
+    const liveKayaLogo =
+        "https://res.cloudinary.com/dooa4lvvv/image/upload/v1668035851/Southwells/logos/LK_logo_Extended_BlueOnWhiteOrangeAccent_myfsbm.png";
 
     const brandsColClass = "col mx-5 my-3";
 
@@ -123,8 +130,8 @@ function BrandsContainer() {
                         <div className={brandsColClass}>
                             <a target="_blank" href={craigTeamURL}>
                                 <img
-                                    className="bg-dark"
-                                    src={craigTeamLogoV2}
+                                    className=""
+                                    src={craigTeamLogo}
                                     alt="craig-team-realty-exp"
                                     width="175"
                                 />
@@ -141,14 +148,14 @@ function BrandsContainer() {
                             </a>
                         </div>
                         <div className={brandsColClass}>
-                        <a target="_blank" href={handCraftURL}>
-
-                            <img
-                                className="rounded-circle"
-                                src={handCraftLogo}
-                                alt="hand craft coffee logo"
-                                width="125px"
-                            /></a>
+                            <a target="_blank" href={handCraftURL}>
+                                <img
+                                    className="rounded-circle"
+                                    src={handCraftLogo}
+                                    alt="hand craft coffee logo"
+                                    width="125px"
+                                />
+                            </a>
                         </div>
                     </div>
                 </div>
