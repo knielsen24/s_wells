@@ -72,17 +72,17 @@ function Navbar() {
                             <li className="nav-item m-0">
                                 <a
                                     className="nav-link pt-1 pb-0 text-uppercase"
-                                    href="#contact"
+                                    href="#courtyard"
                                 >
-                                    Contact
+                                    Courtyard Venue
                                 </a>
                             </li>
                             <li className="nav-item m-0">
                                 <a
                                     className="nav-link pt-1 pb-0 text-uppercase"
-                                    href="#courtyard"
+                                    href="#contact"
                                 >
-                                    Courtyard Venue
+                                    Contact
                                 </a>
                             </li>
                             <li className="nav-item m-0 ">
@@ -93,7 +93,6 @@ function Navbar() {
                                     Partners
                                 </a>
                             </li>
-
                         </ul>
                     </div>
                 </div>
