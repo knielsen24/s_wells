@@ -1,18 +1,11 @@
 import bulletPoint from "../assets/Icons/circle-icon.svg";
-import downloadBlueIcon from "../assets/Icons/download-icon-blue.svg";
-import downloadWhiteIcon from "../assets/Icons/download-icon-white.svg";
-import { useState } from "react";
 
 function About() {
-    const pdfFlyerLink =
-        "https://images1.loopnet.com/d2/rVJ3S-qEKfzX3K8ibdCWqPrDShOdU5D2IssAYGpIyGc/300%20S%20Wells%20Ave%20Flyer.pdf?_gl=1*19uiq4b*_ga*NDc2Mjk1NDc4LjE2Njc1MDI3MjA.*_ga_2DVXTE8M0Q*MTY2NzU5MzAwMy41LjEuMTY2NzU5MzI3Ny4xNC4wLjA.";
     const creListingLink =
         "https://looplink.logiccre.com/Listing/300-328-S-Wells-Ave-Reno-NV/20673499/";
     const googleMaps = "https://goo.gl/maps/UgPqfKpSQzDPGErZA";
 
     const pTagClass = "mb-3";
-
-    const [iconColor, setIconColor] = useState(false)
 
     return (
         <div className="col mt-2 justify-content-center p-1">
@@ -45,24 +38,7 @@ function About() {
                 <p className={pTagClass}>
                     Easy access to I-80 via S. Wells Ave. or I-580 via Mill St
                 </p>
-                <div className="row mb-3 justify-content-center">
-                    <div className="col">
-                        <a
-                            className="btn btn-outline-primary btn-sm text-decoration-none shadow-sm"
-                            target="_blank"
-                            href={pdfFlyerLink}
-                            onMouseEnter={()=> setIconColor(true)}
-                            onMouseLeave={()=> setIconColor(false)}
-                        >
-                            <img
-                                className="me-1 mb-1 text-primary"
-                                src={iconColor ? downloadWhiteIcon : downloadBlueIcon}
-                                width="15"
-                            />
-                            300 South Wells Ave Flyer
-                        </a>
-                    </div>
-                </div>
+
                 {/* <div className="row mb-3 justify-content-center">
                     <div className="col">
                         <a
