@@ -10,17 +10,18 @@ function BrandsContainer() {
     const rideConceptsURL = "https://rideconcepts.com/";
     const craigTeamURL = "https://www.craigteamrealty.com/";
     const liveKayaURL = "https://livekaya.com/";
+    const sierraSageURL = "https://www.sierraandsage.com/";
 
     const terraphaseLogo =
         "https://res.cloudinary.com/dooa4lvvv/image/upload/v1667953762/Southwells/logos/terraphase_logo_henras.svg";
     const handCraftLogo =
-        "https://res.cloudinary.com/dooa4lvvv/image/upload/v1667953762/Southwells/logos/HandCraft-Logo-RGB-Black_Social_Media_Art_1_usnf2q.jpg";
+        "https://res.cloudinary.com/dooa4lvvv/image/upload/v1668061088/Southwells/logos/hand-craft-coffee-logo_g5oeld.png";
     const dorindasLogo =
         "https://res.cloudinary.com/dooa4lvvv/image/upload/v1667953761/Southwells/logos/dorindas-logo_hwxwzd.png";
     const theMillBarreLogo =
         "https://res.cloudinary.com/dooa4lvvv/image/upload/v1667953763/Southwells/logos/the-mill-barre_rg18nw.png";
     const atelierLogo =
-        "https://res.cloudinary.com/dooa4lvvv/image/upload/v1667953760/Southwells/logos/atelier-logo_odbgpl.png";
+        "https://res.cloudinary.com/dooa4lvvv/image/upload/v1668061778/Southwells/logos/atelier-logo_iswelu.png";
     const entravisionLogo =
         "https://res.cloudinary.com/dooa4lvvv/image/upload/v1667953761/Southwells/logos/entravision-logo_xjgq5i.webp";
     const vanmarLogo =
@@ -33,8 +34,13 @@ function BrandsContainer() {
         "https://res.cloudinary.com/dooa4lvvv/image/upload/v1668037134/Southwells/logos/craig-team-realty-logo-color_vdnfrs.png";
     const liveKayaLogo =
         "https://res.cloudinary.com/dooa4lvvv/image/upload/v1668035851/Southwells/logos/LK_logo_Extended_BlueOnWhiteOrangeAccent_myfsbm.png";
+    const sierraSageLogo =
+        "https://res.cloudinary.com/dooa4lvvv/image/upload/v1668061088/Southwells/logos/sierra-sage-logo_iaec0z.png";
 
     const brandsColClass = "col mx-5 my-3";
+    const brandsColClassAtleier = "col mx-5 my-2";
+    const brandsColClassDorindas = "col mx-5 my-0";
+    const brandsColClassHandCraft = "col mx-5 my-3";
 
     return (
         <div className="col mt-3">
@@ -42,7 +48,6 @@ function BrandsContainer() {
                 Partners
             </h4>
             <div className="row justify-content-center">
-                {/* <div className="col-3"></div> */}
                 <div className="col">
                     <div className="row mb-2 align-items-center">
                         <div className={brandsColClass}>
@@ -76,7 +81,7 @@ function BrandsContainer() {
                                 />
                             </a>
                         </div>
-                        <div className={brandsColClass}>
+                        <div className={brandsColClassDorindas}>
                             <a target="_blank" href={vanmarLendingURL}>
                                 <img
                                     className=""
@@ -107,17 +112,17 @@ function BrandsContainer() {
                             </a>
                         </div>
 
-                        <div className={brandsColClass}>
+                        <div className={brandsColClassAtleier}>
                             <a target="_blank" href={dorindasURL}>
                                 <img
                                     className=""
                                     src={dorindasLogo}
                                     alt="dorinda's chocolates logo"
-                                    width="165"
+                                    width="155"
                                 />
                             </a>
                         </div>
-                        <div className={brandsColClass}>
+                        <div className={brandsColClassAtleier}>
                             <a target="_blank" href={liveKayaURL}>
                                 <img
                                     className=""
@@ -127,7 +132,7 @@ function BrandsContainer() {
                                 />
                             </a>
                         </div>
-                        <div className={brandsColClass}>
+                        <div className={brandsColClassDorindas}>
                             <a target="_blank" href={craigTeamURL}>
                                 <img
                                     className=""
@@ -137,23 +142,33 @@ function BrandsContainer() {
                                 />
                             </a>
                         </div>
-                        <div className={brandsColClass}>
+                        <div className={brandsColClassAtleier}>
                             <a target="_blank" href={atelierURL}>
                                 <img
                                     className=""
                                     src={atelierLogo}
                                     alt="atelier logo"
-                                    width="225"
+                                    width="180"
+                                />
+                            </a>
+                        </div>
+                        <div className={brandsColClassHandCraft}>
+                            <a target="_blank" href={handCraftURL}>
+                                <img
+                                    className=""
+                                    src={handCraftLogo}
+                                    alt="hand craft coffee logo"
+                                    width="190px"
                                 />
                             </a>
                         </div>
                         <div className={brandsColClass}>
-                            <a target="_blank" href={handCraftURL}>
+                            <a target="_blank" href={sierraSageLogo}>
                                 <img
-                                    className="rounded-circle"
-                                    src={handCraftLogo}
-                                    alt="hand craft coffee logo"
-                                    width="125px"
+                                    className=""
+                                    src={sierraSageLogo}
+                                    alt="sierra&sage-logo"
+                                    width="190px"
                                 />
                             </a>
                         </div>
