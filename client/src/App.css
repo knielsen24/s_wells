@@ -89,3 +89,8 @@ footer {
     font-weight: 400;
     transition: 0.2s ease-in;
 }
+
+
+.banner-transition {
+    transition: 1s;
+}

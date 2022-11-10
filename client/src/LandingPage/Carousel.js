@@ -33,10 +33,10 @@ function Carousel() {
                             alt="property-front"
                         />
                         <div className={captionClassOne}>
-                            <h2 className="text-capitalize">
+                            <h2 className="text-capitalize banner-transition">
                                 300 South Wells Ave.
                             </h2>
-                            <h5 className="m-0 text-capitalize">
+                            <h5 className="m-0 text-capitalize banner-transition">
                                 Mixed Use Retro Industrial building
                             </h5>
                         </div>
