@@ -13,13 +13,13 @@ function Courtyard() {
                     <p className="">Host an private event in the courtyard</p>
                 </div>
             </div>
-            <div className="row mt-3">
+            {/* <div className="row mt-3">
                 <div className="col">
                     <a type="button" className="btn-primary" href="#contact">
                         Go to Contact information
                     </a>
                 </div>
-            </div>
+            </div> */}
         </div>
     );
 }

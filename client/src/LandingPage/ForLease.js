@@ -13,13 +13,13 @@ function ForLease() {
                     <p className="">Suite 9 - 3,950 SF</p>
                 </div>
             </div>
-            <div className="row mt-3">
+            {/* <div className="row mt-3">
                 <div className="col">
                     <a type="button" className="btn-primary" href="#contact">
                         Go to Contact information
                     </a>
                 </div>
-            </div>
+            </div> */}
         </div>
     );
 }
