@@ -25,7 +25,7 @@ function Courtyard() {
                                 An intimate event venue perfect for your party
                             </p>
                             <p className="card-text"></p>
-                            <a href="#contact" className="btn btn-sm btn-outline-primary">
+                            <a href="#contact" className="btn btn-sm btn-outline-primary shadow-sm">
                                 Contact Info
                             </a>
                         </div>

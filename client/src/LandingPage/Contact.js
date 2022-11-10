@@ -79,7 +79,7 @@ function Contact() {
                     805-320-3638
                 </p>
                 <p className={contactClassPtag}>
-                    <img className="me-1" src={emailIcon} alt="email-icon" />
+                    <img className="me-2 " src={emailIcon} alt="email-icon" />
                     erick@nielsens.us
                 </p>
             </div>
