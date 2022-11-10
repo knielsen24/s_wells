@@ -40,7 +40,6 @@ function Carousel() {
                             <h5 className="m-0 text-capitalize">
                                 Mixed Use Retro Industrial buidling
                             </h5>
-
                         </div>
                     </div>
                     <div className="carousel-item" data-bs-interval="5000">
@@ -51,18 +50,18 @@ function Carousel() {
                             // loading="lazy"
                         />
                         <div className={captionClassOne}>
-                            <h2 className="text-capitalize">Leasing</h2>
-                            {/* <h5 className="m-0 text-capitalize">
-                                Click here to get more information on
-                                availability
-                            </h5> */}
-                            <a
-                                class="btn btn-outline-light fw-bold"
-                                href="#for-lease"
-                                role="button"
-                            >
-                                Check for availability
-                            </a>
+                            <h2 className="">Located in the Wells Avenue District near Downtown Reno</h2>
+                            <div className="row justify-content-center">
+                                <div className="col w-auto">
+                                    <a
+                                        className="nav-link fw-bold text-white"
+                                        href="#for-lease"
+                                        role="button"
+                                    >
+                                        Check for leasing availability
+                                    </a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div className="carousel-item" data-bs-interval="5000">
