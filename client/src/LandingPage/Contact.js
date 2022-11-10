@@ -3,7 +3,7 @@ import phoneIcon from "../assets/Icons/phone-icon.svg";
 import emailIcon from "../assets/Icons/email-icon.svg";
 
 function Contact() {
-    const contactClassPtag = "m-1 mx-5";
+    const contactClassPtag = " m-1 mx-5";
     const contactColTag = "col my-2";
 
     const logicLogo =
@@ -53,7 +53,7 @@ function Contact() {
                         mkeating@logicCRE.com
                     </p>
                 </div>
-                <div className={contactColTag}>
+                {/* <div className={contactColTag}>
                     <p className={contactClassPtag}>Greg Ruzzine</p>
                     <p className={contactClassPtag}>
                         <img
@@ -90,8 +90,8 @@ function Contact() {
                         />
                         mdorn@logicCRE.com
                     </p>
-                </div>
-                <div className={contactColTag}>
+                </div> */}
+                {/* <div className={contactColTag}>
                     <p className={contactClassPtag}>Sam Meredith</p>
                     <p className={contactClassPtag}>
                         <img
@@ -109,7 +109,7 @@ function Contact() {
                         />
                         smeredith@logicCRE.com
                     </p>
-                </div>
+                </div> */}
             </div>
         </div>
     );
