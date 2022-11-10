@@ -11,7 +11,7 @@ function Contact() {
     const logicURL = "https://logiccre.com/";
 
     return (
-        <div className="col mt-3 flex-lg-column">
+        <div className="col mt-3 flex-lg-column p-1">
             <h4 className="my-3 p-1 bg-light rounded border text-uppercase">
                 Contact
             </h4>

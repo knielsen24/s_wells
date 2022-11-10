@@ -42,7 +42,7 @@ function BrandsContainer() {
     const brandsColClassDorindas = "col mx-5 my-0";
 
     return (
-        <div className="col mt-3">
+        <div className="col mt-3 p-1">
             <h4 className="my-3 p-1 bg-light rounded border text-uppercase">
                 Partners
             </h4>
