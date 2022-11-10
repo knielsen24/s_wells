@@ -18,7 +18,7 @@ function Navbar() {
 
     return (
         <div
-            className="navbar m-0 p-0"
+            className="navbar m-0 p-0 border-bottom shadow-sm"
             // {
             //     changeBackground
             //         ? "navbar navbar-bg bg-light m-0 p-0 "

@@ -50,17 +50,19 @@ function Carousel() {
                             // loading="lazy"
                         />
                         <div className={captionClassOne}>
-                            <h2 className="">Located in the Wells Avenue District near Downtown Reno</h2>
+                            <h2 className="">Located in the Wells Avenue District</h2>
                             <div className="row justify-content-center">
-                                <div className="col w-auto">
+                                <div className="col-1"></div>
+                                <div className="col-10 w-auto">
                                     <a
-                                        className="nav-link fw-bold text-white"
+                                        className="banner-link fw-bold text-white text-decoration-none"
                                         href="#for-lease"
                                         role="button"
                                     >
-                                        Check for leasing availability
+                                        Click for leasing availability
                                     </a>
                                 </div>
+                                <div className="col-1"></div>
                             </div>
                         </div>
                     </div>

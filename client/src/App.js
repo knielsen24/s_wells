@@ -12,7 +12,7 @@ function App() {
             id="app-container"
         >
             <Navbar />
-            <div className="container-md row m-auto p-0 main-container justify-content-center">
+            <div className="container-md row m-auto mt-2 p-0 main-container justify-content-center">
                 <Landing />
             </div>
             <Footer />
