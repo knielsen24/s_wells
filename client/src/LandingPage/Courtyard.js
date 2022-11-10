@@ -10,7 +10,7 @@ function Courtyard() {
             </h4>
             <div className="row">
                 <div className="col">
-                    <p className="">Host an event in the courtyard</p>
+                    <p className="">Host an private event in the courtyard</p>
                 </div>
             </div>
             <div className="row mt-3">

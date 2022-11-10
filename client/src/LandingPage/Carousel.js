@@ -3,9 +3,9 @@ function Carousel() {
         "https://res.cloudinary.com/dooa4lvvv/image/upload/v1668028243/Southwells/Landing%20%28Carousel%29/sw-main-1-wide_rker0b.jpg";
     const landingTwoURL =
         "https://res.cloudinary.com/dooa4lvvv/image/upload/v1668028244/Southwells/Landing%20%28Carousel%29/sw-main-2-wide_jw5lpk.jpg";
-    const landingThreeURL =
-        "https://res.cloudinary.com/dooa4lvvv/image/upload/v1668028240/Southwells/Landing%20%28Carousel%29/sw-main-3-wide_buumhd.jpg";
     const landingFourURL =
+        "https://res.cloudinary.com/dooa4lvvv/image/upload/v1668028240/Southwells/Landing%20%28Carousel%29/sw-main-3-wide_buumhd.jpg";
+    const landingThreeURL =
         "https://res.cloudinary.com/dooa4lvvv/image/upload/v1668028251/Southwells/Landing%20%28Carousel%29/sw-main-4-wide_fgmwke.jpg";
     const landingFiveURL =
         "https://res.cloudinary.com/dooa4lvvv/image/upload/v1668028245/Southwells/Landing%20%28Carousel%29/sw-main-5-wide_vwufap.jpg";
@@ -31,14 +31,13 @@ function Carousel() {
                             src={landingOneURL}
                             className="d-block w-100 carousel-cover"
                             alt="property-front"
-                            loading="lazy"
                         />
                         <div className={captionClassOne}>
                             <h2 className="text-capitalize">
                                 300 South Wells Ave.
                             </h2>
                             <h5 className="m-0 text-capitalize">
-                                Mixed Use Retro Industrial buidling
+                                Mixed Use Retro Industrial building
                             </h5>
                         </div>
                     </div>
@@ -47,19 +46,20 @@ function Carousel() {
                             src={landingTwoURL}
                             className="d-block w-100 carousel-cover"
                             alt="property-street"
-                            // loading="lazy"
                         />
                         <div className={captionClassOne}>
-                            <h2 className="">Located in the Wells Avenue District</h2>
+                            <h2 className="">
+                                Located in the Wells Avenue District
+                            </h2>
                             <div className="row justify-content-center">
                                 <div className="col-1"></div>
                                 <div className="col-10 w-auto">
                                     <a
-                                        className="banner-link fw-bold text-white text-decoration-none"
+                                        className="text-decoration-none"
                                         href="#for-lease"
                                         role="button"
                                     >
-                                        Click for leasing availability
+                                        <h5 className="banner-link fw-bold text-white">Checkout leasing availability</h5>
                                     </a>
                                 </div>
                                 <div className="col-1"></div>
@@ -71,51 +71,22 @@ function Carousel() {
                             src={landingThreeURL}
                             className="d-block w-100 "
                             alt="property-courtyard"
-                            loading="lazy"
                         />
-                        {/* <div className={captionClassTwo}>
-                                    <h2>Communial Space</h2>
-                                    <p className="m-0">
-                                        The common areas are great for customers and employees
-                                    </p>
-                                </div> */}
                     </div>
                     <div className="carousel-item" data-bs-interval="5000">
                         <img
                             src={landingFourURL}
                             className="d-block w-100 "
                             alt="courtyard-1"
-                            // loading="lazy"
                         />
-                        {/* <div className={captionClassOne}>
-                                    <h2>The Courtyard</h2>
-                                    <p className="m-0">
-                                        The common areas are great for customers and employees
-                                    </p>
-                                </div> */}
                     </div>
                     <div className="carousel-item" data-bs-interval="5000">
                         <img
                             src={landingFiveURL}
                             className="d-block w-100 "
                             alt="courtyard-2"
-                            // loading="lazy"
                         />
-                        {/* <div className={captionClassOne}>
-                                    <h2>The Courtyard</h2>
-                                    <p className="m-0">
-                                        The common areas are great for customers and employees
-                                    </p>
-                                </div> */}
                     </div>
-                    {/* <div className="carousel-item" data-bs-interval="5000">
-                        <img
-                            src={landingSeven}
-                            className="d-block w-100 "
-                            alt="signage"
-                            loading="lazy"
-                        />
-                    </div> */}
                 </div>
                 <button
                     className="carousel-control-prev ms-3"
