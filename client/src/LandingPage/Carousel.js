@@ -11,9 +11,8 @@ function Carousel() {
         "https://res.cloudinary.com/dooa4lvvv/image/upload/v1668028245/Southwells/Landing%20%28Carousel%29/sw-main-5-wide_vwufap.jpg";
 
     const captionClassOne =
-        "carousel-caption p-2 mx-0 d-none d-sm-block rounded text-white";
-    const captionClassTwo =
-        "carousel-caption p-2 mx-0 d-none d-sm-block rounded text-dark";
+        "carousel-caption banner-caption-top p-2 mx-0 d-none d-sm-block rounded text-white ";
+    const captionClassTwo = "carousel-caption banner-caption-two d-none d-md-block";
 
     return (
         <div className="col m-1 p-0 carousel-column ">
@@ -41,28 +40,33 @@ function Carousel() {
                             </h5>
                         </div>
                     </div>
-                    <div className="carousel-item" data-bs-interval="5000">
+                    <div className="carousel-item" data-bs-interval="200000">
                         <img
                             src={landingTwoURL}
                             className="d-block w-100 carousel-cover"
                             alt="property-street"
                         />
-                        <div className={captionClassOne}>
-                            <h2 className="">
-                                Located in the Wells Avenue District
-                            </h2>
+                        <div className={captionClassTwo}>
+                            <div className="row">
+                                <div className="col align-self-end pe-0">
+                                    <h2 className="float-end">
+                                        Located in the Wells Avenue District
+                                    </h2>
+                                </div>
+                            </div>
+
                             <div className="row justify-content-center">
-                                <div className="col-1"></div>
-                                <div className="col-10 w-auto">
+                                <div className="col-4"></div>
+                                <div className="col-8">
                                     <a
-                                        className="text-decoration-none"
+                                        className="btn btn-outline-light text-decoration-none text-uppercase float-end"
                                         href="#for-lease"
                                         role="button"
                                     >
-                                        <h5 className="banner-link fw-bold text-white">Checkout leasing availability</h5>
+                                        Availability here
                                     </a>
                                 </div>
-                                <div className="col-1"></div>
+                                {/* <div className="col-1"></div> */}
                             </div>
                         </div>
                     </div>

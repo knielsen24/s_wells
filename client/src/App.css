@@ -52,15 +52,18 @@ footer {
     object-fit: cover;
 }
 
-.carousel-caption {
+.banner-caption-top {
     margin-top: 50px;
     top: 0;
     bottom: auto;
 }
 
-/* .main-container {
-    height: 24vh;
-} */
+.banner-caption-two {
+    position: absolute;
+    right: 60px;
+    bottom: 40px;
+    z-index: 98;
+}
 
 .nav-link {
     border-bottom: 4px solid transparent;
@@ -80,7 +83,7 @@ footer {
     /* transition: 0.5s ease-in; */
 }
 
-.banner-link {
+/* .banner-link {
     border-bottom: 4px solid transparent;
 }
 
@@ -88,7 +91,7 @@ footer {
     border-bottom: 4px solid white;
     font-weight: 400;
     transition: 0.2s ease-in;
-}
+} */
 
 .banner-transition {
     transition: 1s;

@@ -22,20 +22,18 @@ function ForLease() {
             <div className="row mb-3 justify-content-center">
                 <div className="col">
                     <a
-                        className="btn btn-outline-primary btn-sm text-decoration-none shadow-sm"
+                        className="btn btn-primary btn-sm text-decoration-none text-uppercase shadow-sm"
                         target="_blank"
                         href={pdfFlyerLink}
-                        onMouseEnter={() => setIconColor(true)}
-                        onMouseLeave={() => setIconColor(false)}
+                        // onMouseEnter={() => setIconColor(true)}
+                        // onMouseLeave={() => setIconColor(false)}
                     >
                         <img
-                            className="me-1 mb-1 text-primary"
-                            src={
-                                iconColor ? downloadWhiteIcon : downloadBlueIcon
-                            }
+                            className="me-2 mb-1 text-primary"
+                            src={downloadWhiteIcon}
                             width="15"
                         />
-                        300 South Wells Ave Flyer
+                        Download Flyer
                     </a>
                 </div>
             </div>
