@@ -66,7 +66,7 @@ function Contact() {
                     </a> */}
                 </div>
                 <h5 className="py-1 m-1 text-decoration-underline text-uppercase">
-                    Venue Information
+                    Courtyard Venue Information
                 </h5>
 
                 <p className={contactClassPtag}>Erick Nielsen</p>

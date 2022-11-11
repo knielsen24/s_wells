@@ -64,7 +64,7 @@ function BrandsContainer() {
                                 <img
                                     className=""
                                     src={craigTeamLogo}
-                                    alt="craig-team-realty-exp"
+                                    alt="craig team realty exp realty"
                                     width="175"
                                 />
                             </a>
@@ -94,7 +94,7 @@ function BrandsContainer() {
                                 <img
                                     className=""
                                     src={handCraftLogo}
-                                    alt="hand craft coffee logo"
+                                    alt="hand craft coffee company "
                                     width="190px"
                                 />
                             </a>
@@ -104,7 +104,7 @@ function BrandsContainer() {
                                 <img
                                     className=""
                                     src={liveKayaLogo}
-                                    alt="live-kaya"
+                                    alt="live kaya"
                                     width="195"
                                 />
                             </a>
@@ -115,7 +115,7 @@ function BrandsContainer() {
                                 <img
                                     className=""
                                     src={theMillBarreLogo}
-                                    alt="the mill barre logo"
+                                    alt="the mill barre + pilates"
                                     width="190"
                                 />
                             </a>
@@ -126,7 +126,7 @@ function BrandsContainer() {
                                 <img
                                     className=""
                                     src={rideConceptsLogo}
-                                    alt="ride-concepts"
+                                    alt="ride concepts"
                                     width="190"
                                 />
                             </a>
@@ -136,7 +136,7 @@ function BrandsContainer() {
                                 <img
                                     className=""
                                     src={sierraSageLogo}
-                                    alt="sierra&sage-logo"
+                                    alt="sierra & sage hair extensions"
                                     width="190px"
                                 />
                             </a>
@@ -146,7 +146,7 @@ function BrandsContainer() {
                                 <img
                                     className=""
                                     src={terraphaseLogo}
-                                    alt="atelier logo"
+                                    alt="terraphase engineering"
                                     width="190"
                                 />
                             </a>
@@ -156,7 +156,7 @@ function BrandsContainer() {
                                 <img
                                     className=""
                                     src={vanmarLogo}
-                                    alt="vanmar-lending"
+                                    alt="vanmar lending"
                                     width="190"
                                 />
                             </a>
@@ -166,7 +166,7 @@ function BrandsContainer() {
                                 <img
                                     className=""
                                     src={walgreensLogo}
-                                    alt="walgreens"
+                                    alt="walgreens pharmancy"
                                     width="190"
                                 />
                             </a>

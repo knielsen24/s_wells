@@ -33,7 +33,7 @@ function About() {
                     Zoned for retail, office, and medical use
                 </p>
                 <p className={pTagClass}>
-                    Common area outdoor patio with attractive amenities
+                    Common area outdoor courtyard with attractive amenities
                 </p>
                 <p className={pTagClass}>
                     Easy access to I-80 via S. Wells Ave. or I-580 via Mill St
