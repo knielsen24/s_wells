@@ -13,9 +13,11 @@ function About() {
                 About
             </h4>
             <p className="mt-2">
-                The property is strategically located in a dense and mature
-                residential area servicing +/- 249,817 residents with an average
-                household income of $109,381 within a 5-mile radius.
+                300 South Wells Ave. consists of two buildings totaling 40,852
+                SF on 2.30 AC of land with 144 Parking Spaces. The property is
+                strategically located in a dense and mature residential area
+                servicing +/- 249,817 residents with an average household income
+                of $109,381 within a 5-mile radius.
             </p>
             <div className="col mt-2">
                 <h5 className="text-decoration-underline">
