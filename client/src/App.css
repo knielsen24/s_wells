@@ -14,7 +14,7 @@ html {
     justify-content: center;
     padding: 10px;
     padding-bottom: 0px;
-    padding-top: 100px;
+    padding-top: 400px;
     margin: auto;
     /* height: 5000px; */
 }
@@ -22,6 +22,10 @@ html {
 .App {
     text-align: center;
 }
+
+/* .main-container {
+    padding-top: 200px;
+} */
 
 .navbar {
     font-family: "Lato", sans-serif;
@@ -32,8 +36,12 @@ html {
     bottom: 0;
     transition: 0.2s ease-in;
     z-index: 100;
+
 }
 
+.nav-header {
+    height: 55px;
+}
 /* .navbar-bg {
 
     opacity: 0.98;

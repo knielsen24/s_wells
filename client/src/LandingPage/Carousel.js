@@ -17,7 +17,7 @@ function Carousel() {
     return (
         <div className="col m-1 p-0 carousel-column ">
             <div
-                id="carouselExampleInterval"
+                id="banners-carousel"
                 className="carousel slide "
                 data-bs-ride="carousel"
             >
@@ -95,7 +95,7 @@ function Carousel() {
                 <button
                     className="carousel-control-prev ms-3"
                     type="button"
-                    data-bs-target="#carouselExampleInterval"
+                    data-bs-target="#banners"
                     data-bs-slide="prev"
                 >
                     <span
@@ -107,7 +107,7 @@ function Carousel() {
                 <button
                     className="carousel-control-next me-3"
                     type="button"
-                    data-bs-target="#carouselExampleInterval"
+                    data-bs-target="#banners"
                     data-bs-slide="next"
                 >
                     <span

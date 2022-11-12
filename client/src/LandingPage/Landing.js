@@ -24,7 +24,7 @@ function Landing() {
             <a
                 className="bg-light border border-secondary border-opacity-50 rounded-4 p-1"
                 id="toTopBtn"
-                href="#navID"
+                href="#banners-carousel"
             >
                 <img
                     className="p-0 m-0"

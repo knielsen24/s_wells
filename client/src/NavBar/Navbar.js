@@ -1,5 +1,5 @@
 import { useState } from "react";
-import southWellsLogo from "../assets/Logos/3SW-logo-white.png";
+import southWellsLogo from "../assets/Logos/3SW-logo-rectangle.png";
 
 function Navbar() {
     const [changeBackground, setChangeBackground] = useState(false);
@@ -18,20 +18,20 @@ function Navbar() {
 
     return (
         <div
-            className="navbar m-0 p-0 border-bottom shadow-sm"
+            className="nav-header m-0 p-0 border-bottom shadow-sm fixed-top bg-white"
             // {
             //     changeBackground
             //         ? "navbar navbar-bg bg-light m-0 p-0 "
             //         : "navbar m-0 p-0 "
             // }
         >
-            <nav className="container navbar navbar-expand-md" id="navID">
+            <nav className="container navbar navbar-expand-md bg-white" id="navID">
                 <div className="container-fluid">
                     <a href="/">
                         <img
                             src={southWellsLogo}
                             alt="3sw-logo"
-                            width="100"
+                            width="150"
                             id="logo-name"
                         />
                     </a>
@@ -54,7 +54,7 @@ function Navbar() {
                         <ul className="navbar-nav ms-auto align-items-center ">
                             <li className="nav-item m-0 ">
                                 <a
-                                    className="nav-link pt-1 pb-0 text-uppercase "
+                                    className="nav-link pb-0 text-uppercase "
                                     aria-current="page"
                                     href="#about"
                                 >
@@ -63,7 +63,7 @@ function Navbar() {
                             </li>
                             <li className="nav-item m-0">
                                 <a
-                                    className="nav-link pt-1 pb-0 text-uppercase m-0"
+                                    className="nav-link  pb-0 text-uppercase m-0"
                                     href="#for-lease"
                                 >
                                     For Lease
@@ -71,7 +71,7 @@ function Navbar() {
                             </li>
                             <li className="nav-item m-0">
                                 <a
-                                    className="nav-link pt-1 pb-0 text-uppercase"
+                                    className="nav-link pb-0 text-uppercase"
                                     href="#courtyard"
                                 >
                                     Courtyard Venue
@@ -79,7 +79,7 @@ function Navbar() {
                             </li>
                             <li className="nav-item m-0">
                                 <a
-                                    className="nav-link pt-1 pb-0 text-uppercase"
+                                    className="nav-link pb-0 text-uppercase"
                                     href="#contact"
                                 >
                                     Contact
@@ -87,7 +87,7 @@ function Navbar() {
                             </li>
                             <li className="nav-item m-0 ">
                                 <a
-                                    className="nav-link pt-1 pb-0 text-uppercase"
+                                    className="nav-link pb-0 text-uppercase"
                                     href="#partners"
                                 >
                                     Partners
