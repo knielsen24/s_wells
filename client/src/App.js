@@ -11,7 +11,7 @@ function App() {
             data-bs-target="#navID"
             id="app-container"
         >
-            <div className="container-md main-container row mx-auto justify-content-center">
+            <div className="container-md row mx-auto justify-content-center">
                 <Navbar />
                 <Landing />
             </div>
