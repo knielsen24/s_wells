@@ -90,7 +90,7 @@ function Navbar() {
                                     className="nav-link pb-0 text-uppercase"
                                     href="#partners"
                                 >
-                                    Partners
+                                    Patrons
                                 </a>
                             </li>
                         </ul>
