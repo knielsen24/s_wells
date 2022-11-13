@@ -94,7 +94,7 @@ function Carousel() {
                 <button
                     className="carousel-control-prev ms-3"
                     type="button"
-                    data-bs-target="#banners"
+                    data-bs-target="#banners-carousel"
                     data-bs-slide="prev"
                 >
                     <span
@@ -106,7 +106,7 @@ function Carousel() {
                 <button
                     className="carousel-control-next me-3"
                     type="button"
-                    data-bs-target="#banners"
+                    data-bs-target="#banners-carousel"
                     data-bs-slide="next"
                 >
                     <span
