@@ -40,7 +40,7 @@ function Carousel() {
                             </h5>
                         </div>
                     </div>
-                    <div className="carousel-item" data-bs-interval="200000">
+                    <div className="carousel-item" data-bs-interval="5000">
                         <img
                             src={landingTwoURL}
                             className="d-block w-100 carousel-cover"
@@ -66,7 +66,6 @@ function Carousel() {
                                         Availability here
                                     </a>
                                 </div>
-                                {/* <div className="col-1"></div> */}
                             </div>
                         </div>
                     </div>

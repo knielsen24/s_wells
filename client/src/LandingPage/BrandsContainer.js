@@ -44,7 +44,7 @@ function BrandsContainer() {
     return (
         <div className="col mt-3 p-1">
             <h4 className="my-3 p-1 bg-light rounded border text-uppercase">
-                Partners
+                Patrons
             </h4>
             <div className="row justify-content-center">
                 <div className="col">

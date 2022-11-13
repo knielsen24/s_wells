@@ -23,9 +23,10 @@ html {
     text-align: center;
 }
 
-/* .main-container {
-    padding-top: 200px;
-} */
+.main-container {
+    /* margin-top: 60px; */
+    padding-top: 50px;
+}
 
 .navbar {
     font-family: "Lato", sans-serif;
@@ -36,7 +37,6 @@ html {
     bottom: 0;
     transition: 0.2s ease-in;
     z-index: 100;
-
 }
 
 .nav-header {

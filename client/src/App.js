@@ -11,8 +11,8 @@ function App() {
             data-bs-target="#navID"
             id="app-container"
         >
-            <Navbar />
-            <div className="container-md main-container row m-auto mt-2 p-0 justify-content-center">
+            <div className="container-md main-container row mx-auto justify-content-center">
+                <Navbar />
                 <Landing />
             </div>
             <Footer />
