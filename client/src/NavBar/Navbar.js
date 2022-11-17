@@ -18,15 +18,15 @@ function Navbar() {
 
     return (
         <div
-            className="nav-header m-0 p-0 border-bottom shadow-sm fixed-top bg-white"
+            className="nav-header m-0 p-0 border-bottom shadow-sm fixed-top bg-light"
             // {
             //     changeBackground
             //         ? "navbar navbar-bg bg-light m-0 p-0 "
             //         : "navbar m-0 p-0 "
             // }
         >
-            <nav className="container navbar navbar-expand-md bg-white" id="navID">
-                <div className="container-fluid">
+            <nav className="container navbar navbar-expand-md bg-light" id="navID">
+                <div className="container-fluid ">
                     <a href="/">
                         <img
                             src={southWellsLogo}
@@ -48,7 +48,7 @@ function Navbar() {
                         <span className="navbar-toggler-icon "></span>
                     </button>
                     <div
-                        className="collapse navbar-collapse"
+                        className="collapse navbar-collapse "
                         id="navbarNavDropdown"
                     >
                         <ul className="navbar-nav ms-auto align-items-center ">

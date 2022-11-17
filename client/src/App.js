@@ -9,6 +9,7 @@ function App() {
             className="container-fluid m-0 p-0 d-flex flex-column"
             data-bs-spy="scroll"
             data-bs-target="#navID"
+            data-offset="100"
             id="app-container"
         >
             <div className="container-md row mx-auto justify-content-center">

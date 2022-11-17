@@ -1,6 +1,7 @@
 //  need to create seperate sub-sections for leasing / courtyard contact
 import phoneIcon from "../assets/Icons/phone-icon.svg";
 import emailIcon from "../assets/Icons/email-icon.svg";
+import nielsenLogo from "../assets/Logos/nielsen-logo.png";
 
 function Contact() {
     const contactClassPtag = " m-1 mx-5";
@@ -21,6 +22,11 @@ function Contact() {
             </div> */}
             <div className="row py-1 align-items-center">
                 <div className={contactColTag}>
+
+
+                    <h5 className="py-1 m-1 text-decoration-underline text-uppercase">
+                        leasing information
+                    </h5>
                     <div>
                         <a target="_blank" href={logicURL}>
                             <img
@@ -31,10 +37,6 @@ function Contact() {
                             />
                         </a>
                     </div>
-
-                    <h5 className="py-1 m-1 text-decoration-underline text-uppercase">
-                        leasing information
-                    </h5>
                     <p className={contactClassPtag}>Michael Keating</p>
                     <p className={contactClassPtag}>
                         <img
@@ -68,8 +70,15 @@ function Contact() {
                 <h5 className="py-1 m-1 text-decoration-underline text-uppercase">
                     Courtyard Venue Information
                 </h5>
-
-                <p className={contactClassPtag}>Erick Nielsen</p>
+                <div>
+                    <img
+                        className="py-2"
+                        src={nielsenLogo}
+                        alt="logic-logo"
+                        width="250px"
+                    />
+                </div>
+                {/* <p className={contactClassPtag}>Erick Nielsen</p> */}
                 <p className={contactClassPtag}>
                     <img
                         className="me-1 mb-1"
@@ -80,7 +89,7 @@ function Contact() {
                 </p>
                 <p className={contactClassPtag}>
                     <img className="me-2 " src={emailIcon} alt="email-icon" />
-                    erick@nielsens.us
+                    Info@300SouthWells.com
                 </p>
             </div>
         </div>

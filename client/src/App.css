@@ -1,6 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
 
-body,
+body {
+    position: relative;
+    overflow-y: auto;
+}
+
 html {
     font-family: "Lato", sans-serif;
     -moz-osx-font-smoothing: grayscale;
@@ -8,15 +12,13 @@ html {
 }
 
 #app-container {
-    /* font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    top: 0;
     width: 100%;
     min-width: 280px;
     justify-content: center;
-    padding: 10px;
     padding-bottom: 0px;
-    padding-top: 400px;
     margin: auto;
-    /* height: 5000px; */
+    bottom:0;
 }
 
 .App {
@@ -24,6 +26,7 @@ html {
 }
 
 .main-content {
+    top: 10;
     padding-top: 60px;
 }
 
