@@ -9,6 +9,7 @@ html {
     font-family: "Lato", sans-serif;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
+    scroll-padding-top: 55px;
 }
 
 #app-container {
