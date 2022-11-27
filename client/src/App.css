@@ -107,3 +107,8 @@ footer {
 .banner-transition {
     transition: 1s;
 }
+
+.prop-highlights {
+    min-width: 200px;
+    max-width: 200px;
+}
