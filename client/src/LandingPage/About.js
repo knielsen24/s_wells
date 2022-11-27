@@ -35,7 +35,7 @@ function About() {
                     </h5>
                 </div>
                 <div className="row mt-3 justify-content-center">
-                    <div className="col prop-highlights border" >
+                    <div className="col prop-highlights" >
                         <img classname="m-5" src={bricksIcon} width="30px" />
                         <p className={pTagClass}>
                             Recently redeveloped multi-tenant mixed-use building
