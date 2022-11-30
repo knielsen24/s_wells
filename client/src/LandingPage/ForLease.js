@@ -14,11 +14,11 @@ function ForLease() {
             {/* <h4 className="my-3 p-1 bg-light rounded border text-uppercase">
                 For Lease
             </h4> */}
-            <h5 className="text-decoration-underline">Leasing availability</h5>
+            <h5 className="text-decoration-underline text-capitalize">Leasing availability</h5>
             <div className="row">
                 <div className="col">
                     <p className="">
-                        Checkout the flyer for more information
+                        Checkout the flyer for more information about available space
                     </p>
                 </div>
             </div>
