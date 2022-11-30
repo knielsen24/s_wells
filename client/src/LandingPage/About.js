@@ -27,17 +27,7 @@ function About() {
                     within a 5-mile radius.
                 </p>
             </div>
-            <div className="row mb-4 justify-content-center">
-                <div className="col">
-                    <a
-                        className="btn btn-primary btn-sm text-decoration-none shadow-sm text-uppercase"
-                        target="_blank"
-                        href={googleMaps}
-                    >
-                        view map location
-                    </a>
-                </div>
-            </div>
+
             <div className="col mt-2">
                 <div className="row">
                     <h5 className="text-decoration-underline">
@@ -77,6 +67,17 @@ function About() {
                             Easy access to I-80 via S. Wells Ave. or I-580 via
                             Mill St
                         </p>
+                    </div>
+                </div>
+                <div className="row mb-4 justify-content-center">
+                    <div className="col">
+                        <a
+                            className="btn btn-primary btn-sm text-decoration-none shadow-sm text-uppercase"
+                            target="_blank"
+                            href={googleMaps}
+                        >
+                            view map location
+                        </a>
                     </div>
                 </div>
             </div>
