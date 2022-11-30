@@ -6,7 +6,7 @@ function ForLease() {
     const [iconColor, setIconColor] = useState(false);
 
     const pdfFlyerLink =
-        "https://images1.loopnet.com/d2/rVJ3S-qEKfzX3K8ibdCWqPrDShOdU5D2IssAYGpIyGc/300%20S%20Wells%20Ave%20Flyer.pdf?_gl=1*19uiq4b*_ga*NDc2Mjk1NDc4LjE2Njc1MDI3MjA.*_ga_2DVXTE8M0Q*MTY2NzU5MzAwMy41LjEuMTY2NzU5MzI3Ny4xNC4wLjA.";
+        "https://images1.loopnet.com/d2/jx7RyrfQIloED0qpF6nH3hHgAf1hA2gMHXuA9N_Ss7M/300%20S%20Wells%20ave%20Flyer.pdf?_gl=1*63o2qt*_ga*NDc2Mjk1NDc4LjE2Njc1MDI3MjA.*_ga_2DVXTE8M0Q*MTY2OTc2NzQzNi4xMS4xLjE2Njk3Njc0OTcuNTkuMC4w";
     const pTagClass = "mb-3";
 
     return (
