@@ -40,10 +40,10 @@ function Landing() {
 
     return (
         <div className="col text-center main-content">
-            <div className=" row p-0 w-auto justify-content-center">
+            <div className="container-md row p-0 w-auto mx-auto justify-content-center">
                 <Carousel />
             </div>
-            <div className=" row p-0 w-auto justify-content-center" id="about">
+            <div className="row p-0 w-auto justify-content-center" id="about">
                 <About />
             </div>
             <div
@@ -53,7 +53,7 @@ function Landing() {
                 <ForLease />
             </div>
             <div
-                className=" row p-0 w-auto justify-content-center"
+                className="row p-0 w-auto justify-content-center"
                 id="courtyard"
             >
                 <Courtyard />

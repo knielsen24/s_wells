@@ -9,7 +9,7 @@ function Courtyard() {
             <h4 className="my-3 p-1 bg-light rounded border text-uppercase">
                 Courtyard Venue
             </h4>
-            <div className="row">
+            <div className="container-md mx-auto row">
                 <div className="col">
                     <div className="card ">
                         <img

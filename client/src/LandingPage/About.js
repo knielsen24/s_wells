@@ -16,7 +16,6 @@ function About() {
             <h4 className="my-3 p-1 bg-light rounded border text-uppercase ">
                 About
             </h4>
-
             <div className="row">
                 <p className="mt-2">
                     300 South Wells Ave. consists of two buildings totaling
@@ -27,6 +26,17 @@ function About() {
                     within a 5-mile radius.
                 </p>
             </div>
+            <div className="row mb-5 justify-content-center">
+                <div className="col">
+                    <a
+                        className="btn btn-primary btn-sm text-decoration-none shadow-sm text-uppercase"
+                        target="_blank"
+                        href={googleMaps}
+                    >
+                        view map location
+                    </a>
+                </div>
+            </div>
 
             <div className="col mt-2">
                 <div className="row">
@@ -35,7 +45,7 @@ function About() {
                     </h5>
                 </div>
                 <div className="row mt-3 justify-content-center">
-                    <div className="col prop-highlights" >
+                    <div className="col prop-highlights">
                         <img classname="m-5" src={bricksIcon} width="30px" />
                         <p className={pTagClass}>
                             Recently redeveloped multi-tenant mixed-use building
@@ -70,17 +80,7 @@ function About() {
                     </div>
                 </div>
 
-                <div className="row mb-3 justify-content-center">
-                    <div className="col">
-                        <a
-                            className="btn btn-primary btn-sm text-decoration-none shadow-sm text-uppercase"
-                            target="_blank"
-                            href={googleMaps}
-                        >
-                            view map location
-                        </a>
-                    </div>
-                </div>
+
             </div>
         </div>
     );
