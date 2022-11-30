@@ -12,10 +12,36 @@ function Contact() {
     const logicURL = "https://logiccre.com/";
 
     return (
-        <div className="col mt-3 flex-lg-column p-1">
+        <div className="col my-3 flex-lg-column p-1">
             <h4 className="my-3 p-1 bg-light rounded border text-uppercase">
                 Contact
             </h4>
+
+            <div className={contactColTag}>
+                <h5 className="py-1 m-1 text-decoration-underline text-uppercase">
+                    Courtyard Venue Information
+                </h5>
+                <div>
+                    <img
+                        className="py-2"
+                        src={nielsenLogo}
+                        alt="nielsen-logo"
+                        width="250px"
+                    />
+                </div>
+                <p className={contactClassPtag}>
+                    <img
+                        className="me-1 mb-1"
+                        src={phoneIcon}
+                        alt="phone-icon"
+                    />
+                    805-320-3638
+                </p>
+                <p className={contactClassPtag}>
+                    <img className="me-2 " src={emailIcon} alt="email-icon" />
+                    Info@300SouthWells.com
+                </p>
+            </div>
             <div className="row py-1 align-items-center">
                 <div className={contactColTag}>
                     <h5 className="py-1 m-1 text-decoration-underline text-uppercase">
@@ -49,32 +75,6 @@ function Contact() {
                         mkeating@logicCRE.com
                     </p>
                 </div>
-            </div>
-            <div className={contactColTag}>
-                <div></div>
-                <h5 className="py-1 m-1 text-decoration-underline text-uppercase">
-                    Courtyard Venue Information
-                </h5>
-                <div>
-                    <img
-                        className="py-2"
-                        src={nielsenLogo}
-                        alt="nielsen-logo"
-                        width="250px"
-                    />
-                </div>
-                <p className={contactClassPtag}>
-                    <img
-                        className="me-1 mb-1"
-                        src={phoneIcon}
-                        alt="phone-icon"
-                    />
-                    805-320-3638
-                </p>
-                <p className={contactClassPtag}>
-                    <img className="me-2 " src={emailIcon} alt="email-icon" />
-                    Info@300SouthWells.com
-                </p>
             </div>
         </div>
     );
