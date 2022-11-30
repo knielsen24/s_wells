@@ -39,7 +39,7 @@ function Landing() {
     window.addEventListener("scroll", showButton);
 
     return (
-        <div className="col text-center main-content ">
+        <div className="col text-center main-content">
             <div className=" row p-0 w-auto justify-content-center">
                 <Carousel />
             </div>

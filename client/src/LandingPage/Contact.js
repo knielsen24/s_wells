@@ -74,11 +74,10 @@ function Contact() {
                     <img
                         className="py-2"
                         src={nielsenLogo}
-                        alt="logic-logo"
+                        alt="nielsen-logo"
                         width="250px"
                     />
                 </div>
-                {/* <p className={contactClassPtag}>Erick Nielsen</p> */}
                 <p className={contactClassPtag}>
                     <img
                         className="me-1 mb-1"
