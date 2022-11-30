@@ -16,14 +16,8 @@ function Contact() {
             <h4 className="my-3 p-1 bg-light rounded border text-uppercase">
                 Contact
             </h4>
-
-            {/* <div className="row justify-content-center">
-                <div className="col"> </div>
-            </div> */}
             <div className="row py-1 align-items-center">
                 <div className={contactColTag}>
-
-
                     <h5 className="py-1 m-1 text-decoration-underline text-uppercase">
                         leasing information
                     </h5>
@@ -57,16 +51,7 @@ function Contact() {
                 </div>
             </div>
             <div className={contactColTag}>
-                <div>
-                    {/* <a target="_blank" href={}>
-                        <img
-                            className="py-2"
-                            src={}
-                            alt="logic-logo"
-                            width="100px"
-                        />
-                    </a> */}
-                </div>
+                <div></div>
                 <h5 className="py-1 m-1 text-decoration-underline text-uppercase">
                     Courtyard Venue Information
                 </h5>

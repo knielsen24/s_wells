@@ -16,7 +16,7 @@ function ForLease() {
             </h4>
             <div className="row">
                 <div className="col">
-                    <p className="">Suite 9 - 3,950 SF</p>
+                    <p className="">Please view the flyer for more information</p>
                 </div>
             </div>
             <div className="row mb-3 justify-content-center">
