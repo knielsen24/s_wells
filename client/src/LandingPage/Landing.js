@@ -46,12 +46,7 @@ function Landing() {
             <div className=" row p-0 w-auto justify-content-center" id="about">
                 <About />
             </div>
-            <div
-                className=" row p-0 w-auto justify-content-center"
-                id="for-lease"
-            >
-                <ForLease />
-            </div>
+
             <div
                 className=" row p-0 w-auto justify-content-center"
                 id="courtyard"
@@ -60,10 +55,17 @@ function Landing() {
             </div>
             <div
                 className=" row p-0 w-auto justify-content-center"
+                id="for-lease"
+            >
+                <ForLease />
+            </div>
+            <div
+                className=" row p-0 w-auto justify-content-center"
                 id="contact"
             >
                 <Contact />
             </div>
+
             <div
                 className=" row p-0 w-auto justify-content-center"
                 id="partners"
