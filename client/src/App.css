@@ -77,11 +77,11 @@ footer {
 }
 
 .nav-link {
-    border-bottom: 4px solid transparent;
+    border-bottom: 2px solid transparent;
 }
 
 .nav-link:hover {
-    border-bottom: 4px solid #595c61;
+    border-bottom: 2px solid #595c61;
     transition: 0.2s ease-in;
 }
 
@@ -111,4 +111,20 @@ footer {
 .prop-highlights {
     min-width: 200px;
     max-width: 200px;
+}
+
+.carousel-column {
+    max-width: 1000px;
+}
+
+/* img {
+    float: left;
+    width:  100px;
+    height: 100px;
+    object-fit: cover;
+} */
+
+
+.carousel-img {
+    max-height: 556px;
 }

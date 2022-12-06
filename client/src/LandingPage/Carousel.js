@@ -9,13 +9,16 @@ function Carousel() {
         "https://res.cloudinary.com/dooa4lvvv/image/upload/v1668028251/Southwells/Landing%20%28Carousel%29/sw-main-4-wide_fgmwke.jpg";
     const landingFiveURL =
         "https://res.cloudinary.com/dooa4lvvv/image/upload/v1668028245/Southwells/Landing%20%28Carousel%29/sw-main-5-wide_vwufap.jpg";
+    const landingSixURL =
+        "https://res.cloudinary.com/dooa4lvvv/image/upload/v1670350695/Southwells/Landing%20%28Carousel%29/sw-main-wide-7-v2_mwbgvv.jpg";
 
     const captionClassOne =
         "carousel-caption banner-caption-top p-2 mx-0 d-none d-sm-block rounded text-white ";
-    const captionClassTwo = "carousel-caption banner-caption-two d-none d-md-block";
+    const captionClassTwo =
+        "carousel-caption banner-caption-two d-none d-md-block";
 
     return (
-        <div className="col m-1 p-0 carousel-column ">
+        <div className="col m-1 p-0 ">
             <div
                 id="banners-carousel"
                 className="carousel slide "
@@ -89,6 +92,36 @@ function Carousel() {
                             className="d-block w-100 "
                             alt="courtyard-2"
                         />
+                    </div>
+                    <div
+                        className="carousel-item border rounded"
+                        data-bs-interval="200000"
+                    >
+                        <div className="row align-items-center">
+                            <div className="col p-0 text-primary">
+                                <div className="container-sm row ">
+                                    <div className="col">
+                                        <h4>
+                                            Home of some of the highest rated businesses in all of Reno.
+                                        </h4>
+                                        <a
+                                            className="btn btn-outline-primary text-decoration-none text-uppercase "
+                                            href="#partners"
+                                            role="button"
+                                        >
+                                            Checkout the businesses
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col p-0">
+                                <img
+                                    src={landingSixURL}
+                                    className="d-block w-100 carousel-img"
+                                    alt="courtyard-2"
+                                />
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <button

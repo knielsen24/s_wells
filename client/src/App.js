@@ -12,7 +12,7 @@ function App() {
             data-offset="100"
             id="app-container"
         >
-            <div className="container-md row mx-auto justify-content-center">
+            <div className="container-md row mx-auto p-1 justify-content-center">
                 <Navbar />
                 <Landing />
             </div>
