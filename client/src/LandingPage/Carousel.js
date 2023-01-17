@@ -11,6 +11,7 @@ function Carousel() {
         "https://res.cloudinary.com/dooa4lvvv/image/upload/v1668028245/Southwells/Landing%20%28Carousel%29/sw-main-5-wide_vwufap.jpg";
     const landingSixURL =
         "https://res.cloudinary.com/dooa4lvvv/image/upload/v1670350695/Southwells/Landing%20%28Carousel%29/sw-main-wide-7-v2_mwbgvv.jpg";
+    const landingSevenURL = "https://res.cloudinary.com/dooa4lvvv/image/upload/v1670354013/Southwells/Landing%20%28Carousel%29/sw-main-6-wide_bx7x19.jpg"
 
     const captionClassOne =
         "carousel-caption banner-caption-top p-2 mx-0 d-none d-sm-block rounded text-white ";
@@ -98,7 +99,7 @@ function Carousel() {
                         data-bs-interval="200000"
                     >
                         <div className="row align-items-center">
-                            <div className="col p-0 text-primary">
+                            {/* <div className="col p-0 text-primary">
                                 <div className="container-sm row ">
                                     <div className="col">
                                         <h4>
@@ -113,10 +114,10 @@ function Carousel() {
                                         </a>
                                     </div>
                                 </div>
-                            </div>
+                            </div> */}
                             <div className="col p-0">
                                 <img
-                                    src={landingSixURL}
+                                    src={landingSevenURL}
                                     className="d-block w-100 carousel-img"
                                     alt="courtyard-2"
                                 />
