@@ -132,7 +132,7 @@ function BrandsContainer() {
                             </a>
                         </div>
                         <div className={brandsColClass}>
-                            <a target="_blank" href={sierraSageLogo}>
+                            <a target="_blank" href={sierraSageURL}>
                                 <img
                                     className=""
                                     src={sierraSageLogo}
