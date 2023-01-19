@@ -48,7 +48,7 @@ function Contact() {
                         leasing information
                     </h5>
                     <div>
-                        <a target="_blank" href={logicURL}>
+                        <a target="_blank" href={logicURL} rel="noreferrer">
                             <img
                                 className="py-2"
                                 src={logicLogo}

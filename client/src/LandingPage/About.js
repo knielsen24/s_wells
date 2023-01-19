@@ -5,8 +5,8 @@ import bricksIcon from "../assets/Icons/bricks-icon.svg";
 import sunIcon from "../assets/Icons/sun-icon.svg";
 
 function About() {
-    const creListingLink =
-        "https://looplink.logiccre.com/Listing/300-328-S-Wells-Ave-Reno-NV/20673499/";
+    // const creListingLink =
+    //     "https://looplink.logiccre.com/Listing/300-328-S-Wells-Ave-Reno-NV/20673499/";
     const googleMaps = "https://goo.gl/maps/UgPqfKpSQzDPGErZA";
 
     const pTagClass = "mt-3";
@@ -75,6 +75,7 @@ function About() {
                             className="btn btn-primary btn-sm text-decoration-none shadow-sm text-uppercase"
                             target="_blank"
                             href={googleMaps}
+                            rel="noreferrer"
                         >
                             view map location
                         </a>

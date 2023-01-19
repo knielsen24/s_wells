@@ -2,19 +2,19 @@ import { useState } from "react";
 import southWellsLogo from "../assets/Logos/3SW-logo-rectangle.png";
 
 function Navbar() {
-    const [changeBackground, setChangeBackground] = useState(false);
+    // const [changeBackground, setChangeBackground] = useState(false);
 
-    const changeColor = () => {
-        if (window.scrollY >= 10) {
-            setChangeBackground(true);
-        } else {
-            setChangeBackground(false);
-        }
-    };
+    // const changeColor = () => {
+    //     if (window.scrollY >= 10) {
+    //         setChangeBackground(true);
+    //     } else {
+    //         setChangeBackground(false);
+    //     }
+    // };
 
-    window.addEventListener("scroll", changeColor);
+    // window.addEventListener("scroll", changeColor);
 
-    const navMenuLinks = "nav-link py-1 text-uppercase";
+    // const navMenuLinks = "nav-link py-1 text-uppercase";
 
     return (
         <div

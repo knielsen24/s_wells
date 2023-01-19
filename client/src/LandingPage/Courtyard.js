@@ -2,7 +2,7 @@ function Courtyard() {
     const courtyardOne =
         "https://res.cloudinary.com/dooa4lvvv/image/upload/v1668067047/Southwells/courtyard/sw-courtyard-1_lburt2.jpg";
 
-    const pTagClass = "mb-3";
+    // const pTagClass = "mb-3";
 
     return (
         <div className="col mt-2 justify-content-center p-1">
