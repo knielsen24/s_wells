@@ -5,8 +5,8 @@ import bricksIcon from "../assets/Icons/bricks-icon.svg";
 import sunIcon from "../assets/Icons/sun-icon.svg";
 
 function About() {
-    const creListingLink =
-        "https://looplink.logiccre.com/Listing/300-328-S-Wells-Ave-Reno-NV/20673499/";
+    // const creListingLink =
+    //     "https://looplink.logiccre.com/Listing/300-328-S-Wells-Ave-Reno-NV/20673499/";
     const googleMaps = "https://goo.gl/maps/UgPqfKpSQzDPGErZA";
 
     const pTagClass = "mt-3";
@@ -36,33 +36,33 @@ function About() {
                 </div>
                 <div className="row mt-3 justify-content-center">
                     <div className="col prop-highlights">
-                        <img classname="m-5" src={bricksIcon} width="30px" />
+                        <img classname="m-5" src={bricksIcon} width="30px" alt="brick icon" />
                         <p className={pTagClass}>
                             Recently redeveloped multi-tenant mixed-use building
                         </p>
                     </div>
                     <div className="col prop-highlights">
-                        <img classname="m-5" src={hospitalIcon} width="30px" />
+                        <img classname="m-5" src={hospitalIcon} width="30px" alt="hospital icon" />
                         <p className={pTagClass}>
                             Close proximity to Renown Regional Medical Center
                             and Downtown Reno
                         </p>
                     </div>
                     <div className="col prop-highlights">
-                        <img classname="m-5" src={toolsIcon} width="30px" />
+                        <img classname="m-5" src={toolsIcon} width="30px" alt="tools icon" />
                         <p className={pTagClass}>
                             Zoned for retail, office, and medical use
                         </p>
                     </div>
                     <div className="col prop-highlights">
-                        <img classname="m-5" src={sunIcon} width="30px" />
+                        <img classname="m-5" src={sunIcon} width="30px" alt="sun icon" />
                         <p className={pTagClass}>
                             Common area outdoor courtyard with attractive
                             amenities
                         </p>
                     </div>
                     <div className="col prop-highlights">
-                        <img classname="m-5" src={carIcon} width="30px" />
+                        <img classname="m-5" src={carIcon} width="30px" alt="car icon" />
                         <p className={pTagClass}>
                             Easy access to I-80 via S. Wells Ave. or I-580 via
                             Mill St
@@ -75,6 +75,7 @@ function About() {
                             className="btn btn-primary btn-sm text-decoration-none shadow-sm text-uppercase"
                             target="_blank"
                             href={googleMaps}
+                            rel="noreferrer"
                         >
                             view map location
                         </a>
