@@ -28,9 +28,9 @@ function Courtyard() {
                             <a href="#contact" className="btn btn-sm btn-primary shadow-sm text-uppercase">
                                 Contact Info
                             </a>
+                            <p className="">More info coming soon</p>
                         </div>
                     </div>
-                    <p className=""></p>
                 </div>
             </div>
             {/* <div className="row mt-3">
