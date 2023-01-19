@@ -72,6 +72,9 @@ function Landing() {
             >
                 <BrandsContainer />
             </div>
+            <div>
+                
+            </div>
             {renderButton}
         </div>
     );
