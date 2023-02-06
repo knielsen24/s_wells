@@ -15,7 +15,7 @@ function Carousel() {
     const captionClassTwo = "carousel-caption banner-caption-two d-none d-md-block";
 
     return (
-        <div className="col m-1 p-0 carousel-column ">
+        <div className="col m-1 mt-4 p-0 carousel-column ">
             <div
                 id="banners-carousel"
                 className="carousel slide "
