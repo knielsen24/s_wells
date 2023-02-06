@@ -54,14 +54,14 @@ html {
     background-color: #eae7e4;
 }
 
-footer {
+.footer {
     width: 100%;
     min-height: 100px;
 }
 
-.footer-container {
+/* .footer-container {
     min-height: 100px;
-}
+} */
 
 
 .cover {

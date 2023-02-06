@@ -2,10 +2,10 @@ import southWellsLogo from "../assets/Logos/3SW-logo-rectangle.png";
 
 function Footer() {
     return (
-        <footer className="mt-auto border-top border-1 bg-light text-dark bg-gradient ">
-            <div className="container mt-auto py-2 footer-container">
-                <div className="row align-items-center justify-content-between ">
-                    <div className="col ">
+        <div className="footer d-flex mt-auto align-items-center border-top border-1 bg-light text-dark bg-gradient ">
+            <div className="container py-2">
+                <div className="row justify-content-between">
+                    <div className="col-4">
                         <img
                             src={southWellsLogo}
                             alt="3sw-logo"
@@ -14,12 +14,11 @@ function Footer() {
                         />
                         {/* <a className="" href="/"></a> */}
                     </div>
-                    <div className="col">{/* Login */}</div>
-                    <div className="col">{/* Login */}</div>
-                    <div className="col">Designed & built by Kevin Nielsen</div>
+                    <div className="col-4">{/* Login */}</div>
+                    <div className="col-4">Designed & built by Kevin Nielsen</div>
                 </div>
             </div>
-        </footer>
+        </div>
     );
 }
 
