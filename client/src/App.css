@@ -92,7 +92,7 @@ html {
 
 #toTopBtn {
     position: fixed;
-    bottom: 15px;
+    bottom: 110px;
     right: 15px;
     z-index: 98;
     padding: 21px;
