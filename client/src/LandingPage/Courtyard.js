@@ -10,11 +10,11 @@ function Courtyard() {
                 Courtyard Venue
             </h4>
             <div className="row">
-                <div className="col">
+                <div className="col hero-container mx-auto">
                     <div className="card ">
                         <img
                             src={courtyardOne}
-                            className="card-img-top"
+                            className="card-img-top "
                             alt="courtyard"
                         />
                         <div className="card-body ">
