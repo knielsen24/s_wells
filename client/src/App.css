@@ -92,11 +92,12 @@ html {
 }
 
 .nav-link {
+    color: #2F3747;
     border-bottom: 4px solid transparent;
 }
 
 .nav-link:hover {
-    border-bottom: 4px solid #595c61;
+    border-bottom: 4px solid #2F3747;
     transition: 0.2s ease-in;
 }
 

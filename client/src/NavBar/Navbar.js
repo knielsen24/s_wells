@@ -25,7 +25,7 @@ function Navbar() {
             //         : "navbar m-0 p-0 "
             // }
         >
-            <nav className="container navbar navbar-expand-md bg-light" id="navID">
+            <nav className="container navbar navbar-expand-lg bg-light rounded" id="navID">
                 <div className="container-fluid ">
                     <a href="/">
                         <img
