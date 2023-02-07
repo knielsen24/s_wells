@@ -63,6 +63,12 @@ html {
     min-height: 100px;
 } */
 
+.knLogo {
+    border-style: solid;
+    border-color: #9070D5;
+    border-width: 2px;
+}
+
 
 .cover {
     object-fit: cover;
