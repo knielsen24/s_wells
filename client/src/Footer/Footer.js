@@ -2,6 +2,7 @@ import southWellsLogo from "../assets/Logos/3SW-logo-rectangle.png";
 import knLogo from "../assets/Logos/Logo KN purple.png";
 
 function Footer() {
+    const kevinNielsenURL = "http://kevin-nielsen.webflow.io/";
     return (
         <div className="footer d-flex mt-auto align-items-center border-top border-1 bg-light text-dark bg-gradient ">
             <div className="container text-center py-2">
@@ -17,20 +18,22 @@ function Footer() {
                     </div>
                     {/* <div className="col mx-3 my-3">Login</div> */}
                     <div className="col mx-3 my-auto ">
-                        <div className="row justify-content-center">
-                            <div className="col align-self-center text-end p-1">
-                                {" "}
+                        <div className="row ">
+                            <div className="col p-1 kn-footer-width">
                                 Designed & built by{" "}
-                            </div>
-                            <div className="col align-self-center text-start p-1">
-                                {" "}
-                                <img
-                                    className="rounded-2 p-1 knLogo"
-                                    src={knLogo}
-                                    alt="Kevin Nielsen Logo"
-                                    width="35"
-                                    // id="logo-name"
-                                ></img>
+                                <a
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    href={kevinNielsenURL}
+                                >
+                                    <img
+                                        className="rounded-2 p-1 knLogo"
+                                        src={knLogo}
+                                        alt="Kevin Nielsen Logo"
+                                        width="35"
+                                        // id="logo-name"
+                                    ></img>
+                                </a>
                             </div>
                         </div>
                     </div>

@@ -69,6 +69,10 @@ html {
     border-width: 2px;
 }
 
+.kn-footer-width {
+    min-width: 200px;
+}
+
 
 .cover {
     object-fit: cover;
