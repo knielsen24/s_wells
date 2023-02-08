@@ -28,7 +28,10 @@ html {
 
 .main-content {
     top: 10;
-    padding-top: 65px;
+}
+
+.max-width-row {
+    max-width: 1200px;
 }
 
 .navbar {
@@ -131,4 +134,8 @@ html {
 
 .hero-container {
     max-width: 1000px;
+}
+
+.about-bg {
+    background-color: #BCCCFF;
 }

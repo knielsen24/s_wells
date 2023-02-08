@@ -25,7 +25,10 @@ function Navbar() {
             //         : "navbar m-0 p-0 "
             // }
         >
-            <nav className="container navbar navbar-expand-lg bg-light rounded" id="navID">
+            <nav
+                className="container navbar navbar-expand-lg bg-light rounded"
+                id="navID"
+            >
                 <div className="container-fluid ">
                     <a href="/">
                         <img
@@ -61,20 +64,21 @@ function Navbar() {
                                     About
                                 </a>
                             </li>
+
+                            <li className="nav-item m-0">
+                                <a
+                                    className="nav-link pb-0 text-uppercase"
+                                    href="#courtyard"
+                                >
+                                    Venue
+                                </a>
+                            </li>
                             <li className="nav-item m-0">
                                 <a
                                     className="nav-link  pb-0 text-uppercase m-0"
                                     href="#for-lease"
                                 >
                                     For Lease
-                                </a>
-                            </li>
-                            <li className="nav-item m-0">
-                                <a
-                                    className="nav-link pb-0 text-uppercase"
-                                    href="#courtyard"
-                                >
-                                    Courtyard Venue
                                 </a>
                             </li>
                             <li className="nav-item m-0">
