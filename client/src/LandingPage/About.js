@@ -28,8 +28,8 @@ function About() {
                 </p>
             </div>
 
-            <div className="col mt-2">
-                <div className="row">
+            <div className="col m-2 p-2 bg-light rounded">
+                <div className="row ">
                     <h5 className="text-decoration-underline">
                         Property Highlights
                     </h5>

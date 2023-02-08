@@ -18,7 +18,7 @@ function Navbar() {
 
     return (
         <div
-            className="nav-header m-0 p-0 border-bottom shadow-sm fixed-top bg-light"
+            className="nav-header m-0 p-0 border-bottom shadow-sm bg-white fixed-top"
             // {
             //     changeBackground
             //         ? "navbar navbar-bg bg-light m-0 p-0 "
@@ -26,7 +26,7 @@ function Navbar() {
             // }
         >
             <nav
-                className="container max-width-row navbar navbar-expand-lg bg-light rounded"
+                className="container max-width-row navbar navbar-expand-lg bg-white rounded"
                 id="navID"
             >
                 <div className="container-fluid ">
