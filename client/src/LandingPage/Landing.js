@@ -53,31 +53,31 @@ function Landing() {
             </div>
 
             <div
-                className=" row p-0 w-auto justify-content-center"
+                className=" row max-width-row mx-auto p-0 w-auto justify-content-center"
                 id="courtyard"
             >
                 <Courtyard />
             </div>
             <div
-                className=" row p-0 w-auto justify-content-center"
+                className=" row max-width-row mx-auto p-0 w-auto justify-content-center"
                 id="for-lease"
             >
                 <ForLease />
             </div>
             <div
-                className=" row p-0 w-auto justify-content-center"
+                className=" row max-width-row mx-auto p-0 w-auto justify-content-center"
                 id="contact"
             >
                 <Contact />
             </div>
 
             <div
-                className=" row p-0 w-auto justify-content-center"
+                className=" row max-width-row mx-auto p-0 w-auto justify-content-center"
                 id="partners"
             >
                 <BrandsContainer />
             </div>
-            <div></div>
+            
             {renderButton}
         </div>
     );
