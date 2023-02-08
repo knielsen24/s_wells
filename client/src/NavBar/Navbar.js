@@ -26,7 +26,7 @@ function Navbar() {
             // }
         >
             <nav
-                className="container navbar navbar-expand-lg bg-light rounded"
+                className="container max-width-row navbar navbar-expand-lg bg-light rounded"
                 id="navID"
             >
                 <div className="container-fluid ">
